@@ -17,6 +17,9 @@ venv/
 # Debug artifacts
 debug_product.html
 
+# Vendor sheet (sensitive — do not expose)
+vendor sheet/
+
 # OS
 .DS_Store
 Thumbs.db
