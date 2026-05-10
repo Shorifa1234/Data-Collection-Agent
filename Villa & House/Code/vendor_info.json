@@ -1,0 +1,488 @@
+{
+  "vendor_name": "Villa & House",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://vandh.com/coffee-tables/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color",
+        "Cushion",
+        "Seat Depth",
+        "Seat Width",
+        "Seat Height",
+        "Arm Width",
+        "Arm Length",
+        "Arm Height",
+        "Com"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Side & End Tables",
+      "links": [
+        "https://vandh.com/side-tables/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color",
+        "Cushion",
+        "Seat Depth",
+        "Seat Width",
+        "Seat Height",
+        "Arm Width",
+        "Arm Length",
+        "Arm Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://vandh.com/dining-center/dining-center-tables/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://vandh.com/desks/consoles/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://vandh.com/beds/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color",
+        "Cushion",
+        "Seat Depth",
+        "Seat Width",
+        "Seat Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://vandh.com/desks-consoles/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Bar Carts",
+      "links": [
+        "https://vandh.com/bar/bar-carts/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinet",
+      "links": [
+        "https://vandh.com/storage-shelving/storage/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://vandh.com/seating/arm-side-occasional-chairs/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color",
+        "Cushion",
+        "Seat Depth",
+        "Seat Width",
+        "Seat Height",
+        "Arm Width",
+        "Arm Length",
+        "Arm Height",
+        "Com"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://vandh.com/seating/high-stools/",
+        "https://vandh.com/seating/low-stools/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color",
+        "Cushion",
+        "Seat Depth",
+        "Seat Width",
+        "Seat Height",
+        "Arm Width",
+        "Arm Length",
+        "Arm Height",
+        "Shade Details",
+        "Com"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://vandh.com/seating/sofas-loveseats/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color",
+        "Cushion",
+        "Seat Depth",
+        "Seat Width",
+        "Seat Height",
+        "Arm Width",
+        "Arm Length",
+        "Arm Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://vandh.com/seating/lounge-club-chairs/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color",
+        "Cushion",
+        "Seat Depth",
+        "Seat Width",
+        "Seat Height",
+        "Arm Width",
+        "Arm Length",
+        "Arm Height",
+        "Shade Details",
+        "Com"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Benches",
+      "links": [
+        "https://vandh.com/seating/benches/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color",
+        "Cushion",
+        "Seat Depth",
+        "Seat Width",
+        "Seat Height",
+        "Arm Width",
+        "Arm Length",
+        "Arm Height",
+        "Shade Details",
+        "Com"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Table Lamps",
+      "links": [
+        "https://vandh.com/lighting/table-lighting/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color",
+        "Shade Details",
+        "Wattage",
+        "Socket"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://vandh.com/art-decor/mirrors/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Pillows & Throws",
+      "links": [
+        "https://vandh.com/custom-upholstery/pillows/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Bowls",
+      "links": [
+        "https://vandh.com/art-decor/bowls/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Vases",
+      "links": [
+        "https://vandh.com/art-decor/vases-porcelain/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Objects",
+      "links": [
+        "https://vandh.com/art-decor/statues-decorative-objects/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Color"
+      ]
+    }
+  ]
+}

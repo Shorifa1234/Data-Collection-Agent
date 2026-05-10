@@ -1,0 +1,571 @@
+{
+  "vendor_name": "Curry",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Nightstands",
+      "links": [
+        "https://www.curreyandcompany.com/c/furniture/chests-nightstands/?product+type=nightstands"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://www.curreyandcompany.com/c/furniture/tables/?product+type=cocktail+tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Side & End Tables",
+      "links": [
+        "https://www.curreyandcompany.com/c/furniture/tables/?product+type=side+tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://www.curreyandcompany.com/c/furniture/tables/?product+type=dining+tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://www.curreyandcompany.com/c/furniture/tables/?product+type=console+tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://www.curreyandcompany.com/c/furniture/desks-vanities/?"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dressers & Chests",
+      "links": [
+        "https://www.curreyandcompany.com/c/furniture/chests-nightstands/?product+type=chests"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://www.curreyandcompany.com/c/furniture/cabinets-credenzas/?"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Accent Tables",
+      "links": [
+        "https://www.curreyandcompany.com/c/furniture/tables/?product+type=accent+tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://www.curreyandcompany.com/c/furniture/dining-chairs/?"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Seat Height",
+        "Arm Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://www.curreyandcompany.com/c/furniture/bar-counter-stools/?"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Seat Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://www.curreyandcompany.com/c/furniture/accent-chairs/?"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Dimension",
+        "Width",
+        "Depth",
+        "Height",
+        "Weight",
+        "Seat Height",
+        "Arm Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Chandeliers",
+      "links": [
+        "https://www.curreyandcompany.com/c/lighting/chandeliers/?"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Shade Details",
+        "Canopy",
+        "Arm Length",
+        "Finish",
+        "Color Temperature",
+        "Socket Type",
+        "Wattage"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Pendants",
+      "links": [
+        "https://www.curreyandcompany.com/c/lighting/pendants/?"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Weight",
+        "Shade Details",
+        "Canopy",
+        "Seat Height",
+        "Finish",
+        "Color Temperature",
+        "Socket Type",
+        "Wattage"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Sconces",
+      "links": [
+        "https://www.curreyandcompany.com/c/lighting/wall-sconces/?"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Shade Details",
+        "Canopy",
+        "Seat Height",
+        "Finish",
+        "Color Temperature",
+        "Socket Type",
+        "Wattage"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Flush Mount",
+      "links": [
+        "https://www.curreyandcompany.com/c/lighting/flush-mounts/?"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Canopy",
+        "Finish",
+        "Color Temperature",
+        "Socket Type",
+        "Wattage"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Table Lamps",
+      "links": [
+        "https://www.curreyandcompany.com/c/lighting/table-lamps/?"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Shade Details",
+        "Finish",
+        "Color Temperature",
+        "Socket Type",
+        "Wattage"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Floor Lamps",
+      "links": [
+        "https://www.curreyandcompany.com/c/lighting/floor-lamps/?"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Shade Details",
+        "Finish",
+        "Color Temperature",
+        "Socket Type",
+        "Wattage"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Lanterns",
+      "links": [
+        "https://www.curreyandcompany.com/c/lighting/lanterns/?"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Canopy",
+        "Finish",
+        "Color Temperature",
+        "Socket Type",
+        "Wattage"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://www.curreyandcompany.com/c/accessories/mirrors/?"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Bowls & Vases",
+      "links": [
+        "https://www.curreyandcompany.com/c/accessories/vases-jars-bowls/?"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Objects",
+      "links": [
+        "https://www.curreyandcompany.com/c/accessories/objects-sculptures/?"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Boxes",
+      "links": [
+        "https://www.curreyandcompany.com/c/accessories/boxes-trays/?product+type=decorative+boxes"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Trays",
+      "links": [
+        "https://www.curreyandcompany.com/c/accessories/boxes-trays/?product+type=decorative+trays"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish"
+      ]
+    }
+  ]
+}

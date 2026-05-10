@@ -1,0 +1,420 @@
+{
+  "vendor_name": "Bunny Williams Home (BWH)",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/coffee-tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Side & End Tables",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/side-tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/dining-tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/console-tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/beds"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/desks"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/chests-cabinets"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/dining-chairs"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length",
+        "Seat Height",
+        "Seat Width",
+        "Seat Depth",
+        "Arm Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/sofas"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length",
+        "Seat Height",
+        "Seat Width",
+        "Seat Depth",
+        "Arm Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/lounge-chairs"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length",
+        "Seat Height",
+        "Seat Width",
+        "Seat Depth",
+        "Arm Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Ottomans & Benches",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/benches-stools"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Lighting",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/all-lighting"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length",
+        "Socket",
+        "Wattage",
+        "Base",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/mirrors"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Pillows & Throws",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/pillows-throws"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Objects",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/decorative-accessories",
+        "https://www.bunnywilliamshome.com/collections/hand-thrown-pottery"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Baskets & Planters",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/planters-cachepots"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Wall Decor",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/original-art",
+        "https://www.bunnywilliamshome.com/collections/antique-vintage-wall-decor"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length"
+      ]
+    },
+    {
+      "group": "Textiles",
+      "name": "Fabric",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/fabric"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length",
+        "Content"
+      ]
+    },
+    {
+      "group": "Textiles",
+      "name": "Wall Covering",
+      "links": [
+        "https://www.bunnywilliamshome.com/collections/wallpaper"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length",
+        "Content"
+      ]
+    }
+  ]
+}

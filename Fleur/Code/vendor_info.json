@@ -1,0 +1,47 @@
+{
+  "vendor_name": "Fleur",
+  "categories": [
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://fleurhome.com/collections/all-mirrors",
+        "https://fleurhome.com/collections/the-scoop",
+        "https://fleurhome.com/pages/bath",
+        "https://fleurhome.com/pages/bedroom",
+        "https://fleurhome.com/pages/entry",
+        "https://fleurhome.com/pages/dream-studio"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Textiles",
+      "name": "Trim",
+      "links": [
+        "https://fleurhome.com/collections/trim",
+        "https://fleurhome.com/collections/trim-for-mirrors"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}

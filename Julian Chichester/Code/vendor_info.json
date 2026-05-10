@@ -1,0 +1,317 @@
+{
+  "vendor_name": "Julian Chichester",
+  "categories": [
+    {
+      "group": "",
+      "name": "Nightstands & End Tables",
+      "links": [
+        "https://julianchichester.com/category/bookshelves"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Dining Tables",
+      "links": [
+        "https://julianchichester.com/category/dining-tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://julianchichester.com/category/coffee-tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Side & End Tables",
+      "links": [
+        "https://julianchichester.com/category/occasional-tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Consoles",
+      "links": [
+        "https://julianchichester.com/category/console-tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://julianchichester.com/category/beds-daybeds"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Desks",
+      "links": [
+        "https://julianchichester.com/category/desks-dressing-tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Dining Chairs",
+      "links": [
+        "https://julianchichester.com/category/dining-chairs"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://julianchichester.com/category/lounge-chairs"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Bar Stools",
+      "links": [
+        "https://julianchichester.com/category/bar-stools"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://julianchichester.com/category/settees-sofas-chaises"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Mirrors",
+      "links": [
+        "https://julianchichester.com/category/mirrors"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Chandeliers",
+      "links": [
+        "https://julianchichester.com/category/pendants-chandeliers"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Sconces",
+      "links": [
+        "https://julianchichester.com/category/wall-lamps"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Table Lamps",
+      "links": [
+        "https://julianchichester.com/category/table-lamps"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Floor Lamps",
+      "links": [
+        "https://julianchichester.com/category/floor-lamps"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Objects",
+      "links": [
+        "https://julianchichester.com/category/accessories"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    }
+  ]
+}

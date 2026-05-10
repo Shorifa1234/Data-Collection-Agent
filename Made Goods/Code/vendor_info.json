@@ -1,0 +1,613 @@
+{
+  "vendor_name": "Made Goods",
+  "categories": [
+    {
+      "group": "",
+      "name": "Nightstands & End Tables",
+      "links": [
+        "https://www.madegoods.com/furniture/nightstands-end-tables.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Dining Tables",
+      "links": [
+        "https://www.madegoods.com/furniture/tables-dining.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://www.madegoods.com/furniture/tables-coffee-cocktail.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Side & End Tables",
+      "links": [
+        "https://www.madegoods.com/furniture/tables-side.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Consoles",
+      "links": [
+        "https://www.madegoods.com/furniture/consoles.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://www.madegoods.com/furniture/beds-headboards.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Desks",
+      "links": [
+        "https://www.madegoods.com/furniture/desks.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Dining Chairs",
+      "links": [
+        "https://www.madegoods.com/furniture/seating-dining.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Bar Stools",
+      "links": [
+        "https://www.madegoods.com/furniture/seating-bar-counter-stools.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://www.madegoods.com/furniture/sofas-sofettes-daybeds.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Mirrors",
+      "links": [
+        "https://www.madegoods.com/mirrors/view-all.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Chandelier",
+      "links": [
+        "https://www.madegoods.com/lighting/chandeliers.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Pendants",
+      "links": [
+        "https://www.madegoods.com/lighting/pendants.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Sconce",
+      "links": [
+        "https://www.madegoods.com/lighting/sconces.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Table Lamp",
+      "links": [
+        "https://www.madegoods.com/lighting/table-lamps.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Floor Lamps",
+      "links": [
+        "https://www.madegoods.com/lighting/floor-lamps.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Baskets & Planters",
+      "links": [
+        "https://www.madegoods.com/decor/baskets-planters.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Bowls & Vases",
+      "links": [
+        "https://www.madegoods.com/decor/bowls-vases.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Boxes",
+      "links": [
+        "https://www.madegoods.com/decor/boxes.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Objects",
+      "links": [
+        "https://www.madegoods.com/decor/objects.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Pillows & Throws",
+      "links": [
+        "https://www.madegoods.com/decor/pillows-throws.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Rugs",
+      "links": [
+        "https://www.madegoods.com/decor/rugs.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Trays",
+      "links": [
+        "https://www.madegoods.com/decor/trays.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Wall Decor",
+      "links": [
+        "https://www.madegoods.com/decor/wall-decor.html?sortBy=production_mg_products_name_asc"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Length",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    }
+  ]
+}

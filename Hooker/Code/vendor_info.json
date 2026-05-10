@@ -1,0 +1,372 @@
+{
+  "vendor_name": "Hooker",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Nightstands",
+      "links": [
+        "https://www.hookerfurniture.com/bedroom/nightstands/room-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://www.hookerfurniture.com/dining-room/tables/room-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://www.hookerfurniture.com/living-room/coffee-tables/room-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Side & End Tables",
+      "links": [
+        "https://www.hookerfurniture.com/living-room/end-tables/room-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://www.hookerfurniture.com/living-room/console-tables/room-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://www.hookerfurniture.com/bedroom/beds/room-type.aspx?Brand=Hooker%20Furniture"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://www.hookerfurniture.com/office-furniture/desks/category-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://www.hookerfurniture.com/dining-room/sideboard-cabinets/room-type.aspx",
+        "https://www.hookerfurniture.com/dining-room/china-cabinets/room-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dressers & Chests",
+      "links": [
+        "https://www.hookerfurniture.com/bedroom/chests-and-dressers/room-type.aspx",
+        "https://www.hookerfurniture.com/bedroom/armoire-cabinets/room-type.aspx",
+        "https://www.hookerfurniture.com/living-room/credenza-cabinets/room-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Bookcases",
+      "links": [
+        "https://www.hookerfurniture.com/office-furniture/bookcases/category-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Accent Tables",
+      "links": [
+        "https://www.hookerfurniture.com/furniture/accent-tables/department-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://www.hookerfurniture.com/dining-room/dining-chairs/room-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://www.hookerfurniture.com/living-room/chairs/room-type.aspx?Brand=Hooker%20Furniture",
+        "https://www.hookerfurniture.com/living-room/chairs/room-type.aspx?motion-type=reclining"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://www.hookerfurniture.com/dining-room/stools/room-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://www.hookerfurniture.com/living-room/sofas/room-type.aspx?Brand=Hooker%20Furniture",
+        "https://www.hookerfurniture.com/living-room/loveseats/room-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sectionals",
+      "links": [
+        "https://www.hookerfurniture.com/living-room/sectionals/room-type.aspx?Brand=Hooker%20Furniture"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Ottomans",
+      "links": [
+        "https://www.hookerfurniture.com/itembrowser.aspx?action=attributes&itemtype=furniture&room=living-room&type=benches&brand=hooker%20furniture&type=ottomans"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Benches",
+      "links": [
+        "https://www.hookerfurniture.com/itembrowser.aspx?action=attributes&itemtype=furniture&room=living-room&brand=hooker%20furniture&type=benches",
+        "https://www.hookerfurniture.com/bedroom/benches/room-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Desk Chairs",
+      "links": [
+        "https://www.hookerfurniture.com/office-furniture/desk-chairs/category-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://www.hookerfurniture.com/livingroom/mirrors/room-type.aspx"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    }
+  ]
+}

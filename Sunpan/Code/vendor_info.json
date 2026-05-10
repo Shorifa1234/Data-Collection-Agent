@@ -1,0 +1,675 @@
+{
+  "vendor_name": "Sunpan",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Nightstands",
+      "links": [
+        "https://sunpan.com/collections/nightstands"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://sunpan.com/collections/coffee-tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Side & End Tables",
+      "links": [
+        "https://sunpan.com/collections/end-side-tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://sunpan.com/collections/dining-tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://sunpan.com/collections/console-tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://sunpan.com/collections/beds"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://sunpan.com/collections/desks"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://sunpan.com/collections/storage-consoles-cabinets"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Bookcases",
+      "links": [
+        "https://sunpan.com/collections/bookcases-shelving"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dressers & Chests",
+      "links": [
+        "https://sunpan.com/collections/dressers"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Bar Carts",
+      "links": [
+        "https://sunpan.com/collections/bar-carts-and-cabinets"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://sunpan.com/collections/dining-chairs"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Arm Height",
+        "Seat Height",
+        "Seat Width",
+        "Seat Depth",
+        "Finish",
+        "Base",
+        "Seat",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://sunpan.com/collections/counter-stools"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Arm Height",
+        "Seat Height",
+        "Seat Width",
+        "Seat Depth",
+        "Finish",
+        "Base",
+        "Seat",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://sunpan.com/collections/sofas"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Arm Height",
+        "Seat Height",
+        "Seat Width",
+        "Seat Depth",
+        "Finish",
+        "Base",
+        "Seat",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sectionals",
+      "links": [
+        "https://sunpan.com/collections/sofa-chaises-sectionals"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Arm Height",
+        "Seat Height",
+        "Seat Width",
+        "Seat Depth",
+        "Finish",
+        "Base",
+        "Seat",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://sunpan.com/collections/armchairs-lounge-chairs"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Arm Height",
+        "Seat Height",
+        "Seat Width",
+        "Seat Depth",
+        "Finish",
+        "Base",
+        "Seat",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Ottomans",
+      "links": [
+        "https://sunpan.com/collections/ottomans?&sort_by=title-ascending&filter.p.product_type=Ottomans"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Seat Width",
+        "Seat Depth",
+        "Finish",
+        "Base",
+        "Seat",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Benches",
+      "links": [
+        "https://sunpan.com/collections/ottomans?&sort_by=title-ascending&filter.p.product_type=Benches"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Arm Height",
+        "Seat Height",
+        "Seat Width",
+        "Seat Depth",
+        "Finish",
+        "Base",
+        "Seat",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Desk Chairs",
+      "links": [
+        "https://sunpan.com/collections/office-chairs"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Arm Height",
+        "Seat Height",
+        "Seat Width",
+        "Seat Depth",
+        "Finish",
+        "Base",
+        "Seat",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Chandeliers",
+      "links": [
+        "https://sunpan.com/collections/chandeliers"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base",
+        "Wattage"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Pendants",
+      "links": [
+        "https://sunpan.com/collections/pendants"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base",
+        "Wattage"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Sconces",
+      "links": [
+        "https://sunpan.com/collections/sconce"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base",
+        "Wattage"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Table Lamps",
+      "links": [
+        "https://sunpan.com/collections/table-lamps"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base",
+        "Wattage"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Floor Lamps",
+      "links": [
+        "https://sunpan.com/collections/floor-lamps"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish",
+        "Base",
+        "Wattage"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://sunpan.com/collections/floor-mirrors",
+        "https://sunpan.com/collections/wall-mirrors"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Base"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Wall Decor",
+      "links": [
+        "https://sunpan.com/collections/art"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Base"
+      ]
+    },
+    {
+      "group": "Textiles",
+      "name": "Rugs",
+      "links": [
+        "https://sunpan.com/collections/indoor-rugs"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Color",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Finish"
+      ]
+    }
+  ]
+}

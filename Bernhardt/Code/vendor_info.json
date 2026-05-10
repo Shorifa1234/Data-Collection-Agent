@@ -1,0 +1,344 @@
+{
+  "vendor_name": "Bernhardt",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Nightstands",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-bedside-pieces/#?$MultiView=Yes&Sub-Category=Bedside%20Pieces&orderBy=BedroomPosition&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family ID",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-dining-tables/#?RoomType=Dining&$MultiView=Yes&Sub-Category=Tables&orderBy=DiningPosition&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family ID",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-cocktail-tables/#?RoomType=Living&$MultiView=Yes&Sub-Category=Tables&orderBy=LivingPosition&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family ID",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-console-tables/#?RoomType=Living&$MultiView=Yes&Sub-Category=Consoles&orderBy=LivingPosition&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family ID",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-beds/#?$MultiView=Yes&Sub-Category=Beds&orderBy=ShortDescription&context=shop&page=1",
+        "https://www.bernhardt.com/products/luxury-headboards/#?$MultiView=Yes&Sub-Category=Headboards&orderBy=BedroomPosition,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family ID",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "COM"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-writing-desks/#?RoomType=Workspace&$MultiView=Yes&Sub-Category=Desks&orderBy=WorkspacePosition&context=shop&page=1",
+        "https://www.bernhardt.com/products/luxury-home-office-desks/#?RoomType=Workspace&$MultiView=Yes&Sub-Category=Desks&orderBy=WorkspacePosition&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family ID",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Seat Width"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dressers & Chests",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-dressers/#?$MultiView=Yes&Sub-Category=Dressers&orderBy=BedroomPosition&context=shop&page=1",
+        "https://www.bernhardt.com/products/luxury-chests/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family ID",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-dining-cabinets/",
+        "https://www.bernhardt.com/products/luxury-living-cabinets/#?RoomType=Living&$MultiView=Yes&Sub-Category=Cabinets&orderBy=LivingPosition&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family ID",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Seat Width"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-dining-chairs/#?RoomType=Dining&$MultiView=Yes&Sub-Category=Chairs&orderBy=ShortDescription&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-bar-counter-stools/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Benches",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-benches-and-ottomans/#?Product%20Type=Bench&RoomType=Bedroom&$MultiView=Yes&Sub-Category=Benches%20%26%20Ottomans&orderBy=BedroomPosition&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Ottomans",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-benches-and-ottomans/#?Product%20Type=Ottoman&RoomType=Bedroom&$MultiView=Yes&Sub-Category=Benches%20%26%20Ottomans&orderBy=BedroomPosition&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Desk Chairs",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-home-office-chairs/#?RoomType=Workspace&$MultiView=Yes&Sub-Category=Chairs&orderBy=WorkspacePosition&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas &  Loveseats",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-sofas/#?Product%20Type=Loveseat%7CSofa&RoomType=Living&$MultiView=Yes&Sub-Category=Fabric%20Seating&orderBy=LivingPosition&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-mirrors/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Pillows & Throws",
+      "links": [
+        "https://www.bernhardt.com/products/luxury-throw-pillows/#?RoomType=Living&$MultiView=Yes&Sub-Category=Accent%20Pillows&orderBy=LivingPosition&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height"
+      ]
+    },
+    {
+      "group": "Textiles",
+      "name": "Fabric",
+      "links": [
+        "https://www.bernhardt.com/fabrics-leathers/fabrics/#?$MultiView=Yes&Resources=FabricFabric&orderBy=DefaultPosition,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height"
+      ]
+    }
+  ]
+}

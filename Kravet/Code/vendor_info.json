@@ -1,0 +1,625 @@
+{
+  "vendor_name": "Kravet",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Nightstands",
+      "links": [
+        "https://www.kravet.com/furniture?furniture_subtype=Nightstands"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://www.kravet.com/furniture?furniture_subtype=Dining%20Tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://www.kravet.com/furniture?furniture_subtype=Cocktail%20Tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Side & End Tables",
+      "links": [
+        "https://www.kravet.com/furniture?furniture_subtype=Occasional%20Tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://www.kravet.com/furniture?furniture_subtype=Console%20Tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://www.kravet.com/furniture?product_type=Beds",
+        "https://www.kravet.com/furniture?furniture_subtype=Headboards"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://www.kravet.com/furniture?furniture_subtype=Storage"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dressers & Chests",
+      "links": [
+        "https://www.kravet.com/furniture?furniture_subtype=Chests~Dressers"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://www.kravet.com/furniture?furniture_subtype=Desks"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://www.kravet.com/furniture?product_type=Chairs&use=Dining"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://www.kravet.com/furniture?furniture_subtype=Bar%20%26%20Counter%20Stools"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://www.kravet.com/furniture?product_type=Sofas"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sectionals",
+      "links": [
+        "https://www.kravet.com/furniture?product_type=Sectionals"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://www.kravet.com/furniture?furniture_subtype=Recliners"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Ottomans",
+      "links": [
+        "https://www.kravet.com/furniture?product_type=Ottomans"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Benches",
+      "links": [
+        "https://www.kravet.com/furniture?product_type=Benches"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Chandeliers",
+      "links": [
+        "https://www.kravet.com/lighting?product_type=Chandeliers"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length",
+        "Weight",
+        "Finish",
+        "Color",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Pendants",
+      "links": [
+        "https://www.kravet.com/lighting?product_type=Pendants"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length",
+        "Weight",
+        "Finish",
+        "Color",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Sconces",
+      "links": [
+        "https://www.kravet.com/lighting?product_type=Wall%20Sconces"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length",
+        "Weight",
+        "Finish",
+        "Color",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Table Lamps",
+      "links": [
+        "https://www.kravet.com/lighting?product_type=Table%20Lamps"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Length",
+        "Weight",
+        "Finish",
+        "Color",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Floor Lamps",
+      "links": [
+        "https://www.kravet.com/lighting?product_type=Floor%20Lamps"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Length",
+        "Length",
+        "Weight",
+        "Finish",
+        "Color",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    }
+  ]
+}

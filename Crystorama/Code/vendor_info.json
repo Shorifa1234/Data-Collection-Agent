@@ -1,0 +1,118 @@
+{
+  "vendor_name": "Crystorama",
+  "categories": [
+    {
+      "group": "Lighting",
+      "name": "Lighting",
+      "links": [
+        "https://crystoramalightinglights.com/cry/category/lighting/outdoor-lighting/?showproducts=true"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Chandeliers",
+      "links": [
+        "https://crystoramalightinglights.com/cry/category/lighting/ceiling-lights/chandeliers/",
+        "https://crystoramalightinglights.com/cry/category/lighting/ceiling-lights/mini-chandeliers/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Pendants",
+      "links": [
+        "https://crystoramalightinglights.com/cry/category/lighting/ceiling-lights/pendants/",
+        "https://crystoramalightinglights.com/cry/category/lighting/ceiling-lights/mini-pendants/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Sconces",
+      "links": [
+        "https://crystoramalightinglights.com/cry/category/lighting/wall-lights/wall-sconces/",
+        "https://crystoramalightinglights.com/cry/category/lighting/wall-lights/bathroom-vanity-lights/",
+        "https://crystoramalightinglights.com/cry/category/lighting/wall-lights/swing-arm-%2F-wall-lamps/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Flush Mount",
+      "links": [
+        "https://crystoramalightinglights.com/cry/category/lighting/ceiling-lights/flush-mounts/",
+        "https://crystoramalightinglights.com/cry/category/lighting/ceiling-lights/semi-flush-mounts/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://crystoramalightinglights.com/cry/category/furniture-and-decor/?showproducts=true"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}

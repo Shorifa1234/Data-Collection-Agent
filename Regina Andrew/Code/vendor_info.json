@@ -1,0 +1,823 @@
+{
+  "vendor_name": "Regina Andrew",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Nightstands",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Bedroom/Nightstands"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Table/Coffee-Tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Side & End Tables",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Table/Side-Tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Table/Dining-Tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Live-From-Detroit/Consoles"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Bedroom/Beds"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Consoles-Shelving/Home-Office-Desks"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Bar Carts",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Table/Bar-Carts"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Consoles-Shelving/Credenzas-Cabinets"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Bookcase",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Consoles-Shelving/Etageres-Shelving"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dressers & Chests",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Bedroom/Dressers"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Seating/Chairs"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Seat Height",
+        "Seat Depth",
+        "Arm Height",
+        "Cushion",
+        "Content"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Seating/Stools"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Seat Height",
+        "Seat Depth",
+        "Arm Height",
+        "Cushion",
+        "Content"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Seating/Sofas"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Seat Height",
+        "Seat Depth",
+        "Arm Height",
+        "Cushion",
+        "Content"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sectionals",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Seating/Sectionals"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Seat Height",
+        "Seat Depth",
+        "Arm Height",
+        "Cushion",
+        "Content"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Benches",
+      "links": [
+        "https://www.reginaandrew.com/Furniture/Seating/Benches"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Seat Height",
+        "Seat Depth",
+        "Arm Height",
+        "Cushion",
+        "Content"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Chandeliers",
+      "links": [
+        "https://www.reginaandrew.com/Lighting/Ceiling-Fixtures/Chandeliers"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Pendants",
+      "links": [
+        "https://www.reginaandrew.com/Lighting/Ceiling-Fixtures/Pendants"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Sconces",
+      "links": [
+        "https://www.reginaandrew.com/Lighting/Wall-Sconces/Sconces"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Flush Mount",
+      "links": [
+        "https://www.reginaandrew.com/Lighting/Ceiling-Fixtures/Flush-Mounts"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Table Lamps",
+      "links": [
+        "https://www.reginaandrew.com/Lighting/Lamps/Table-Lamps"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Floor Lamps",
+      "links": [
+        "https://www.reginaandrew.com/Lighting/Lamps/Floor-Lamps"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Bulbs",
+      "links": [
+        "https://www.reginaandrew.com/Lighting/Accessories/Bulbs"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://www.reginaandrew.com/Home-Accessories/Wall-Decor/Mirrors"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Pillows & Throws",
+      "links": [
+        "https://www.reginaandrew.com/Home-Accessories/Accent-Decor/Pillows-Throws"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Bowls",
+      "links": [
+        "https://www.reginaandrew.com/Home-Accessories/Functional-Decor/Bowls"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Vases",
+      "links": [
+        "https://www.reginaandrew.com/Home-Accessories/Functional-Decor/Vases"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Objects",
+      "links": [
+        "https://www.reginaandrew.com/Home-Accessories/Accent-Decor/Objects-Sculptures"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Trays",
+      "links": [
+        "https://www.reginaandrew.com/Home-Accessories/Functional-Decor/Trays"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Wall Decor",
+      "links": [
+        "https://www.reginaandrew.com/Home-Accessories/Wall-Decor/Wall-Art"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Textiles",
+      "name": "Rugs",
+      "links": [
+        "https://www.reginaandrew.com/Rugs"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "vendor_name": "Rogers and Goffigon",
+  "categories": [
+    {
+      "group": "Textiles",
+      "name": "Fabric",
+      "links": [
+        "https://www.rogersandgoffigon.com/collection/textiles",
+        "https://www.rogersandgoffigon.com/collection/performance"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Textiles",
+      "name": "Leather",
+      "links": [
+        "https://www.rogersandgoffigon.com/collection/leather"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}

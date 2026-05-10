@@ -1,0 +1,106 @@
+{
+	"vendor_name": "Hennepin Made",
+	"categories": [
+		{
+			"group": "Lighting",
+			"name": "Chandeliers",
+			"links": [
+				"https://hennepinmade.com/collections/chandelier",
+				"https://hennepinmade.com/collections/curated-installations"
+			],
+			"studio_columns": [
+				"Image URL",
+				"Product Name",
+				"SKU",
+				"Description",
+				"Weight",
+				"Width",
+				"Depth",
+				"Diameter",
+				"Height"
+			]
+		},
+		{
+			"group": "Lighting",
+			"name": "Pendants",
+			"links": ["https://hennepinmade.com/collections/pendant"],
+			"studio_columns": [
+				"Image URL",
+				"Product Name",
+				"SKU",
+				"Description",
+				"Weight",
+				"Width",
+				"Depth",
+				"Diameter",
+				"Height"
+			]
+		},
+		{
+			"group": "Lighting",
+			"name": "Sconces",
+			"links": ["https://hennepinmade.com/collections/sconces"],
+			"studio_columns": [
+				"Image URL",
+				"Product Name",
+				"SKU",
+				"Description",
+				"Weight",
+				"Width",
+				"Depth",
+				"Diameter",
+				"Height"
+			]
+		},
+		{
+			"group": "Lighting",
+			"name": "Flush Mount",
+			"links": ["https://hennepinmade.com/collections/flush-mount"],
+			"studio_columns": [
+				"Image URL",
+				"Product Name",
+				"SKU",
+				"Description",
+				"Weight",
+				"Width",
+				"Depth",
+				"Diameter",
+				"Height"
+			]
+		},
+		{
+			"group": "Lighting",
+			"name": "Table Lamps",
+			"links": ["https://hennepinmade.com/collections/lamp"],
+			"studio_columns": [
+				"Image URL",
+				"Product Name",
+				"SKU",
+				"Description",
+				"Weight",
+				"Width",
+				"Depth",
+				"Diameter",
+				"Height"
+			]
+		},
+		{
+			"group": "Lighting",
+			"name": "Bulbs",
+			"links": ["https://hennepinmade.com/collections/parts"],
+			"studio_columns": [
+				"Image URL",
+				"Product Name",
+				"SKU",
+				"List Price",
+				"Description",
+				"Height",
+				"Diameter",
+				"Socket",
+				"Rating",
+				"Finish",
+				"Color Temperature"
+			]
+		}
+	]
+}

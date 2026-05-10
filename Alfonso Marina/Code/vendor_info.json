@@ -1,0 +1,343 @@
+{
+  "vendor_name": "Alfonso Marina",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Nightstands",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/storage-eng/nightstands-lowboys-side-chests-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/tables-eng/cocktail-tables-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/tables-eng/dining-tables-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/tables-eng/consoles-sofa-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/beds-catalog-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/tables-eng/desks-wing-tables-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Accent Tables",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/tables-eng/occasional-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dressers & Chests",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/storage-eng/chest-trunks-eng/",
+        "https://alfonsomarina.com/product-category/furniture-eng/storage-eng/dressers-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/storage-eng/cabinets-bookcases-eng/",
+        "https://alfonsomarina.com/product-category/furniture-eng/storage-eng/buffets-sideboards-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/seating-eng/dining-chairs-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/seating-eng/bar-stools-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/seating-eng/sofas-loveseats-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Benches",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/seating-eng/benches-ottomans-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/seating-eng/occasional-chairs-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/accessories-eng/mirrors-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Boxes",
+      "links": [
+        "https://alfonsomarina.com/product-category/furniture-eng/accessories-eng/boxes-eng/"
+      ],
+      "studio_columns": [
+        "Product Url",
+        "Image Url",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+venv/
+
+# Scraped output data
+*/Data/*.xlsx
+*/Data/run_log.txt
+
+# Excel temp/lock files
+~$*.xlsx
+
+# Debug artifacts
+debug_product.html
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,284 @@
+{
+  "vendor_name": "Remains",
+  "categories": [
+    {
+      "group": "",
+      "name": "Mirrors",
+      "links": [
+        "https://remains.com/collections/mirrors"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "LightSource",
+        "ColorTemperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Canopy",
+        "Base",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Chandeliers",
+      "links": [
+        "https://remains.com/collections/chandeliers"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "LightSource",
+        "ColorTemperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Canopy",
+        "Base",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Flush Mounted",
+      "links": [
+        "https://remains.com/collections/flush-mounts"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "LightSource",
+        "ColorTemperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Canopy",
+        "Base",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Pendants",
+      "links": [
+        "https://remains.com/collections/pendants"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "LightSource",
+        "ColorTemperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Canopy",
+        "Base",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Sconces",
+      "links": [
+        "https://remains.com/collections/sconces"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "LightSource",
+        "ColorTemperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Canopy",
+        "Base",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Table Lamps",
+      "links": [
+        "https://remains.com/collections/lamps?uff_u6it8g_tags=Table%20and%20Desk%20Lamps"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "LightSource",
+        "ColorTemperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Canopy",
+        "Base",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Floor Lamps",
+      "links": [
+        "https://remains.com/collections/lamps?uff_u6it8g_tags=Floor%20Lamps"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "LightSource",
+        "ColorTemperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Canopy",
+        "Base",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Lanterns",
+      "links": [
+        "https://remains.com/collections/lanterns"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "LightSource",
+        "ColorTemperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Canopy",
+        "Base",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Objects",
+      "links": [
+        "https://remains.com/collections/furniture-and-objects"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "LightSource",
+        "ColorTemperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Canopy",
+        "Base",
+        "Chain Length"
+      ]
+    }
+  ]
+}

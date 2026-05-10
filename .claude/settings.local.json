@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python orchestrator.py \"The Future Perfect\")",
+      "Bash(*)",
+      "WebFetch(domain:fourhands.com)",
+      "WebFetch(domain:www.parkersouthern.com)",
+      "WebFetch(domain:gabby.com)",
+      "WebFetch(domain:www.curreyandcompany.com)",
+      "WebFetch(domain:alliedmaker.com)",
+      "WebFetch(domain:gabriellawhite.com)",
+      "WebFetch(domain:www.alliedmaker.com)",
+      "WebFetch(domain:alfonsomarina.com)",
+      "WebFetch(domain:www.alfonsomarina.com)",
+      "WebFetch(domain:www.palecek.com)",
+      "WebFetch(domain:www.kannoa.com)",
+      "WebFetch(domain:www.bunnywilliamshome.com)",
+      "WebFetch(domain:blackmancruz.com)"
+    ]
+  }
+}

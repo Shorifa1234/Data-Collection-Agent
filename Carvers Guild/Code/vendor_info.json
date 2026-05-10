@@ -1,0 +1,23 @@
+{
+  "vendor_name": "Carvers Guild",
+  "categories": [
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://carversguild.com/our-mirrors/browse/number"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}

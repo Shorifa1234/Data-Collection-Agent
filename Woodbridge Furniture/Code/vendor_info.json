@@ -1,0 +1,353 @@
+{
+  "vendor_name": "Woodbridge Furniture",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Nightstands",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/side-tables/bedside-tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/cocktail-tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Side & End Tables",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/side-tables",
+        "https://www.woodbridgefurniture.com/products/side-tables/drink-tables",
+        "https://www.woodbridgefurniture.com/products/side-tables/lamp-tables",
+        "https://www.woodbridgefurniture.com/products/side-tables/martini-tables",
+        "https://www.woodbridgefurniture.com/products/side-tables/nest-tables",
+        "https://www.woodbridgefurniture.com/products/side-tables/tier-tables",
+        "https://www.woodbridgefurniture.com/products/side-tables/side-tables",
+        "https://www.woodbridgefurniture.com/products/plant-stands"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/side-tables/center-tables",
+        "https://www.woodbridgefurniture.com/products/dining-game-tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Com"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/consoles-buffets/consoles",
+        "https://www.woodbridgefurniture.com/products/consoles-buffets/buffets"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/beds"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/writing-table-desks"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Bookcases",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/cabinets-bookcases/bookcases"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/cabinets-bookcases/cabinets"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dressers & Chests",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/chests/bedside-chests",
+        "https://www.woodbridgefurniture.com/products/chests/dressers",
+        "https://www.woodbridgefurniture.com/products/chests/hall-chests",
+        "https://www.woodbridgefurniture.com/products/chests/chests"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/chairs/arm-chairs",
+        "https://www.woodbridgefurniture.com/products/chairs/side-chairs",
+        "https://www.woodbridgefurniture.com/products/chairs/dining-chairs"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/stools"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/chairs/game-chairs"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Ottomans",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/ottomans"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Benches",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/benches"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/mirror-accessories/mirrors"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Outdoor",
+      "name": "Outdoor Seating",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/outdoor/outdoor-stools",
+        "https://www.woodbridgefurniture.com/products/outdoor/outdoor-chairs",
+        "https://www.woodbridgefurniture.com/products/outdoor/outdoor-sofa-chaises",
+        "https://www.woodbridgefurniture.com/products/outdoor/outdoor-ottomans",
+        "https://www.woodbridgefurniture.com/products/outdoor/panama-blanco-collection-outdoor",
+        "https://www.woodbridgefurniture.com/products/outdoor/panama-brisa-collection-outdoor",
+        "https://www.woodbridgefurniture.com/products/outdoor/moorland-stone-collection-outdoor",
+        "https://www.woodbridgefurniture.com/products/outdoor/merino-haze-collection-outdoor",
+        "https://www.woodbridgefurniture.com/products/outdoor/merino-navy-collection-outdoor"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Outdoor",
+      "name": "Outdoor Tables",
+      "links": [
+        "https://www.woodbridgefurniture.com/products/outdoor/outdoor-tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}

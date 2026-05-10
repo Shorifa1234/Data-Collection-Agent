@@ -1,0 +1,143 @@
+{
+  "vendor_name": "Allied Maker",
+  "categories": [
+    {
+      "group": "",
+      "name": "Chandeliers",
+      "links": [
+        "https://www.alliedmaker.com/Products/custitem_type/Chandelier"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Lamping"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Pendants",
+      "links": [
+        "https://www.alliedmaker.com/Products/custitem_type/Pendant"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Lamping"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Sconces",
+      "links": [
+        "https://www.alliedmaker.com/Products/custitem_type/Sconce"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Lamping"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Flush Mount",
+      "links": [
+        "https://www.alliedmaker.com/Products/custitem_type/Flush-Mount"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Lamping"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Table Lamps",
+      "links": [
+        "https://www.alliedmaker.com/Products/custitem_type/Table-Lamp"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Lamping"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Floor Lamps",
+      "links": [
+        "https://www.alliedmaker.com/Products/custitem_type/Floor-Lamp"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "Lamping"
+      ]
+    }
+  ]
+}

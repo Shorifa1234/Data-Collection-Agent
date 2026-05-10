@@ -1,0 +1,5 @@
+Total session time: 15.7s
++
+Total session time: 3m 53s
++
+Total session time: 3m 50s

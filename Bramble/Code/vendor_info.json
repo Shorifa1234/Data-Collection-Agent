@@ -1,0 +1,334 @@
+{
+  "vendor_name": "Bramble",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Nightstands",
+      "links": [
+        "https://www.brambleco.com/custom/furniture/bedroom/nightstands/#?$MultiView=Yes&nav_level_1=Custom&nav_level_2=Furniture&nav_level_3=Bedroom&nav_level_4=Nightstands&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://www.brambleco.com/quick-ship-custom-express/furniture/living/coffee-tables/#?$MultiView=Yes&nav_level_1=Quick%20Ship&nav_level_2=Furniture&nav_level_3=Living&nav_level_4=Coffee%20Tables&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Side & End Tables",
+      "links": [
+        "https://www.brambleco.com/quick-ship-custom-express/furniture/living/side-tables/#?$MultiView=Yes&nav_level_1=Quick%20Ship&nav_level_2=Furniture&nav_level_3=Living&nav_level_4=Side%20Tables&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://www.brambleco.com/quick-ship-custom-express/furniture/dining/dining-tables/#?$MultiView=Yes&nav_level_1=Quick%20Ship&nav_level_2=Furniture&nav_level_3=Dining&nav_level_4=Dining%20Tables&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Com"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://www.brambleco.com/quick-ship-custom-express/furniture/living/console-tables/#?$MultiView=Yes&nav_level_1=Quick%20Ship&nav_level_2=Furniture&nav_level_3=Living&nav_level_4=Console%20Tables&orderBy=Featured,Id&context=shop&page=1",
+        "https://www.brambleco.com/quick-ship-custom-express/furniture/living/tv-stands/#?$MultiView=Yes&nav_level_1=Quick%20Ship&nav_level_2=Furniture&nav_level_3=Living&nav_level_4=Tv%20Stands&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://www.brambleco.com/quick-ship-custom-express/furniture/bedroom/beds-headboards/#?$MultiView=Yes&nav_level_1=Quick%20Ship&nav_level_2=Furniture&nav_level_3=Bedroom&nav_level_4=Beds%20%26%20Headboards&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://www.brambleco.com/quick-ship-custom-express/furniture/living/display-cabinets/#?$MultiView=Yes&nav_level_1=Quick%20Ship&nav_level_2=Furniture&nav_level_3=Living&nav_level_4=Display%20Cabinets&orderBy=Featured,Id&context=shop&page=1",
+        "https://www.brambleco.com/quick-ship-custom-express/furniture/dining/sideboards/#?$MultiView=Yes&nav_level_1=Quick%20Ship&nav_level_2=Furniture&nav_level_3=Dining&nav_level_4=Sideboards&orderBy=Featured,Id&context=shop&page=1",
+        "https://www.brambleco.com/quick-ship-custom-express/furniture/kitchen-bars/kitchen-islands/#?$MultiView=Yes&nav_level_1=Quick%20Ship&nav_level_2=Furniture&nav_level_3=Kitchen%20%26%20Bars&nav_level_4=Kitchen%20Islands&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dressers & Chests",
+      "links": [
+        "https://www.brambleco.com/quick-ship-custom-express/furniture/bedroom/dressers/#?$MultiView=Yes&nav_level_1=Quick%20Ship&nav_level_2=Furniture&nav_level_3=Bedroom&nav_level_4=Dressers&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Bar Carts",
+      "links": [
+        "https://www.brambleco.com/custom/furniture/kitchen-bars/bars-wine-racks/#?$MultiView=Yes&nav_level_1=Custom&nav_level_2=Furniture&nav_level_3=Kitchen%20%26%20Bars&nav_level_4=Bars%20%26%20Wine%20Racks&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://www.brambleco.com/quick-ship-custom-express/furniture/dining/dining-chairs-benches/#?$MultiView=Yes&nav_level_1=Quick%20Ship&nav_level_2=Furniture&nav_level_3=Dining&nav_level_4=Dining%20Chairs%7CDining%20Chairs%20%26%20Benches&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://www.brambleco.com/quick-ship-custom-express/furniture/kitchen-bars/bar-counter-stools/#?$MultiView=Yes&nav_level_1=Quick%20Ship&nav_level_2=Furniture&nav_level_3=Kitchen%20%26%20Bars&nav_level_4=Bar%20%26%20Counter%20Stools&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://www.brambleco.com/quick-ship-custom-express/furniture/living/occasional-chairs/#?$MultiView=Yes&nav_level_2=Furniture&nav_level_4=Occasional%20Chairs&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Ottomans & Benches",
+      "links": [
+        "https://www.brambleco.com/custom/furniture/living/stools-ottomans-benches/#?$MultiView=Yes&nav_level_1=Custom&nav_level_4=Stools,%20Ottomans%20%26%20Benches&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Benches",
+      "links": [
+        "https://www.brambleco.com/custom/furniture/bedroom/benches/#?$MultiView=Yes&nav_level_1=Custom&nav_level_2=Furniture&nav_level_3=Bedroom&nav_level_4=Benches&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Floor Lamps",
+      "links": [
+        "https://www.brambleco.com/custom/accessories/lighting/floor-lamps/#?$MultiView=Yes&nav_level_1=Custom&nav_level_2=Accessories&nav_level_3=Lighting&nav_level_4=Floor%20Lamps&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://www.brambleco.com/custom/accessories/mirrors"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Wall Decor",
+      "links": [
+        "https://www.brambleco.com/custom/accessories/wall-decor/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Outdoor",
+      "name": "Outdoor Seating",
+      "links": [
+        "https://www.brambleco.com/quick-ship-custom-express/outdoor-teak-furniture/#?$MultiView=Yes&nav_level_1=Quick%20Ship&nav_level_2=Outdoor%20Teak%20Furniture&orderBy=Featured,Id&context=shop&page=1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}

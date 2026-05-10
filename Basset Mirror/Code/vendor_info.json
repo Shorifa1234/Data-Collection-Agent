@@ -1,0 +1,239 @@
+{
+  "vendor_name": "Basset Mirror",
+  "categories": [
+    {
+      "group": "",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://www.bassettmirror.com/shop-products.cfm?cat=Cocktail%20Tables",
+        "https://www.bassettmirror.com/shop-products.cfm?cat=Coffee%20Tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Side & End Tables",
+      "links": [
+        "https://www.bassettmirror.com/shop-products.cfm?cat=End%20Tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Dining Tables",
+      "links": [
+        "https://www.bassettmirror.com/shop-products.cfm?cat=Tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Consoles",
+      "links": [
+        "https://www.bassettmirror.com/shop-products.cfm?cat=Console%20Tables"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Desks",
+      "links": [
+        "https://www.bassettmirror.com/shop-products.cfm?cat=Desks"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Dining Chairs",
+      "links": [
+        "https://www.bassettmirror.com/shop-products.cfm?cat=Chairs"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Content"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Pendants",
+      "links": [
+        "https://www.bassettmirror.com/shop-products.cfm?cat=Pendants"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Socket",
+        "Shade Details",
+        "Wattage"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Table Lamps",
+      "links": [
+        "https://www.bassettmirror.com/shop-products.cfm?cat=Table%20Lamps"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Socket",
+        "Shade Details",
+        "Base",
+        "Wattage"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Floor Lamps",
+      "links": [
+        "https://www.bassettmirror.com/shop-products.cfm?cat=Floor%20Lamps"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Socket",
+        "Shade Details",
+        "Base",
+        "Wattage"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Mirrors",
+      "links": [
+        "https://www.bassettmirror.com/shop-products.cfm?div=Mirrors"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color"
+      ]
+    }
+  ]
+}

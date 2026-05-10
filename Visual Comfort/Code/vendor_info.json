@@ -1,0 +1,240 @@
+{
+  "vendor_name": "Visual Comfort",
+  "categories": [
+    {
+      "group": "",
+      "name": "Chandeliers",
+      "links": [
+        "https://www.visualcomfort.com/us/c/ceiling/chandelier"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Height",
+        "Width",
+        "Length",
+        "Diameter",
+        "Weight",
+        "Finish",
+        "Canopy",
+        "Socket",
+        "Wattage",
+        "Shade Details",
+        "Chain Length",
+        "Lightsource",
+        "Rating",
+        "O/A Height",
+        "Fixture Height",
+        "Min. Custom Height",
+        "Overall Height"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Sconces",
+      "links": [
+        "https://www.visualcomfort.com/us/c/wall/decorative-wall"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Height",
+        "Width",
+        "Length",
+        "Diameter",
+        "Weight",
+        "Finish",
+        "Canopy",
+        "Socket",
+        "Wattage",
+        "Shade Details",
+        "Extension",
+        "Backplate"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Flush Mounted",
+      "links": [
+        "https://www.visualcomfort.com/us/c/ceiling/flush-mount"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Height",
+        "Width",
+        "Length",
+        "Diameter",
+        "Weight",
+        "Finish",
+        "Canopy",
+        "Socket",
+        "Wattage",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Pendants",
+      "links": [
+        "https://www.visualcomfort.com/us/c/ceiling/pendant"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Height",
+        "Width",
+        "Length",
+        "Weight",
+        "Finish",
+        "Canopy",
+        "Socket",
+        "Wattage",
+        "Chain Length",
+        "Shade Details"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Table Lamps",
+      "links": [
+        "https://www.visualcomfort.com/us/c/table"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Height",
+        "Width",
+        "Length",
+        "Diameter",
+        "Weight",
+        "Finish",
+        "Canopy",
+        "Socket",
+        "Wattage",
+        "Shade Details",
+        "Base"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Floor Lamps",
+      "links": [
+        "https://www.visualcomfort.com/us/c/floor"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Height",
+        "Width",
+        "Length",
+        "Diameter",
+        "Weight",
+        "Finish",
+        "Canopy",
+        "Socket",
+        "Wattage",
+        "Extension",
+        "Base"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Lantern",
+      "links": [
+        "https://www.visualcomfort.com/us/c/ceiling/lantern"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Height",
+        "Width",
+        "Length",
+        "Diameter",
+        "Weight",
+        "Finish",
+        "Canopy",
+        "Socket",
+        "Wattage",
+        "Fixture Height",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Fans",
+      "links": [
+        "https://www.visualcomfort.com/us/c/fans"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Height",
+        "Width",
+        "Length"
+      ]
+    },
+    {
+      "group": "",
+      "name": "Bulbs",
+      "links": [
+        "https://www.visualcomfort.com/us/c/bulbs"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Height",
+        "Diameter",
+        "Socket",
+        "Rating",
+        "Finish",
+        "Color Temperature"
+      ]
+    }
+  ]
+}

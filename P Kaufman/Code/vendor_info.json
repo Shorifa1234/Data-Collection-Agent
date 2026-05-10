@@ -1,0 +1,26 @@
+{
+  "vendor_name": "P Kaufman",
+  "categories": [
+    {
+      "group": "Textiles",
+      "name": "Fabric",
+      "links": [
+        "https://pkaufmann.com/pkfabrics/",
+        "https://pkaufmann.com/search-results/?q=induro",
+        "https://pkaufmann.com/search-results/?q=indurance",
+        "https://pkaufmann.com/p-k-fabrics/golding-fabrics/view-all-fabrics/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}

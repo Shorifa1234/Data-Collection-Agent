@@ -1,0 +1,414 @@
+{
+  "vendor_name": "Highland House",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=74"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=72"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=25"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=34"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Bar Carts",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=70"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=72"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dressers & Chests",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=29",
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=32"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Accent Tables",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=83"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Bookcases",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=82"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=73"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Length",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=61"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Length",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=14",
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=79"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Length",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sectionals",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=14"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Length",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=81"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Length",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Ottomans",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=76"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Length",
+        "Seat Number",
+        "Base/Foot Type",
+        "COM Available",
+        "COM",
+        "COL",
+        "COT",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "Cushion"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Mirrors",
+      "links": [
+        "https://highlandhousefurniture.com/Consumer/ShowItems.aspx?TypeID=84"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height",
+        "Finish",
+        "Color",
+        "Length"
+      ]
+    }
+  ]
+}

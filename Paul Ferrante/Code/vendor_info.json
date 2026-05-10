@@ -1,0 +1,319 @@
+{
+  "vendor_name": "Paul Ferrante",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://paulferrante.com/product-category/all-tables/dining-tables/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://paulferrante.com/product-category/all-tables/coffee-tables/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Side & End Tables",
+      "links": [
+        "https://paulferrante.com/product-category/all-tables/side-tables/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://paulferrante.com/product-category/custom-furniture/beds/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Length",
+        "Weight"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://paulferrante.com/product-category/custom-furniture/mirrors/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Chandeliers",
+      "links": [
+        "https://paulferrante.com/product-category/lighting/chandeliers-hanging-fixtures/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Flush Mounted",
+      "links": [
+        "https://paulferrante.com/product-category/lighting/ceiling-fixtures/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Sconces",
+      "links": [
+        "https://paulferrante.com/product-category/lighting/wall-and-ceiling-sconces/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Table Lamps",
+      "links": [
+        "https://paulferrante.com/product-category/lighting/table-lamps/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Floor Lamps",
+      "links": [
+        "https://paulferrante.com/product-category/lighting/floor-lamps/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Lanterns",
+      "links": [
+        "https://paulferrante.com/product-category/lighting/lanterns-hanging/",
+        "https://paulferrante.com/product-category/lighting/lanterns-wall-mounted/"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "List Price",
+        "Description",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Socket",
+        "Wattage",
+        "Lightsource",
+        "Color Temperature",
+        "Extension",
+        "Rating",
+        "Shade Details",
+        "Base",
+        "Canopy",
+        "Chain Length"
+      ]
+    }
+  ]
+}

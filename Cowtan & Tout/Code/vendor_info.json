@@ -1,0 +1,59 @@
+{
+  "vendor_name": "Cowtan & Tout",
+  "categories": [
+    {
+      "group": "Textiles",
+      "name": "Fabric",
+      "links": [
+        "https://designs.cowtan.com/Search/F/Brand/All/Colour/All/Category/All/New/0/Page/1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Textiles",
+      "name": "Wall Covering",
+      "links": [
+        "https://designs.cowtan.com/Search/W/Brand/All/Colour/All/Category/All/New/0/Page/1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Textiles",
+      "name": "Trim",
+      "links": [
+        "https://designs.cowtan.com/Search/T/Brand/All/Colour/All/Category/All/New/0/Page/1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}

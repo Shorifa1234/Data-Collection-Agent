@@ -1,0 +1,426 @@
+{
+  "vendor_name": "Century",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Nightstands",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/bed-room-1?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Nightstands&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/living-room?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Cocktail+Tables&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Side & End Tables",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/all?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Side+Tables&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/dining-room?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Rectangular+Dining+Table&filter.p.product_type=Rectangular+Dining+Tables&filter.p.product_type=Round+Dining+Tables&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/dining-room?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Console+Tables&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/bed-room-1?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Poster+Beds&filter.p.product_type=Sleigh+Beds&filter.p.product_type=Upholstered+Beds&filter.p.product_type=Wood+Beds&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Com"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/bed-room-1?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Writing+Desks&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Com"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Bookcases",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/all?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Bookcases&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Com"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Accent Tables",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/all?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Accent+Tables&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Com"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/all?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Credenzas&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Com"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dressers & Chests",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/all?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Armoires&filter.p.product_type=Bedroom+Chests&filter.p.product_type=Double+Dressers&filter.p.product_type=Occasional+Chests&filter.p.product_type=Single+Dressers&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Com"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/dining-room?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Dining+Chairs&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Com",
+        "Finish",
+        "Seat",
+        "Arm"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/dining-room?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Bar+%2F+Counter+Stools&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Com",
+        "Finish",
+        "Seat",
+        "Arm"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/all?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Leather+Sofas+%2F+Love+Seats&filter.p.product_type=Sectionals&filter.p.product_type=Sofas&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Com",
+        "Finish",
+        "Seat",
+        "Arm"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/all?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Leather+Sofas+%2F+Love+Seats&filter.p.product_type=Sectionals&filter.p.product_type=Sofas&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "COM"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Benches",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/all?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Benches&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Seat",
+        "Arm"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/living-room?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Mirrors&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Com"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Boxes",
+      "links": [
+        "https://shop.centuryfurniture.com/collections/all?filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Boxes&sort_by=title-ascending"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Com"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Table Lamps",
+      "links": [
+        "https://theodorealexander.com/item/category/type/value/table-lighting"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "List Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}
