@@ -4,7 +4,7 @@
 
 A Claude Code-powered agentic system that scrapes product data from interior design vendor websites and saves results to structured Excel files. Columns are **fully dynamic** — every field found on the product page becomes a column, ordered by the tracker's studio_columns definition.
 
-**32 vendor scrapers** currently implemented across Playwright, Shopify API, Magento 2, WooCommerce, BigCommerce, NetSuite, EPiServer, and custom CMS platforms.
+**33 vendor scrapers** currently implemented across Playwright, Shopify API, Magento 2, WooCommerce, BigCommerce, NetSuite, EPiServer, and custom CMS platforms.
 
 ---
 
@@ -292,6 +292,7 @@ everything into a single sheet for that category.
 | Gabby | `Gabby` | Shopify (`gabriellawhite.com`) |
 | Hector Finch | `Hector Finch` | Custom |
 | Hennepin Made | `Hennepin Made` | Custom |
+| Hickory White | `Hickory White` | Drupal 7 CMS *(Fabric category skipped — microdinc.com iframe blocks headless browsers)* |
 | Highland House | `Highland House` | Custom ASP.NET |
 | Kannoa | `Kannoa` | Shopify API |
 | Kravet | `Kravet` | Magento 2 + Algolia |
@@ -367,6 +368,7 @@ These are set automatically by the orchestrator when `--test` is passed:
 | **Villa & House** | BigCommerce trade portal — no price shown without login. Dimensions extracted from body text pattern. |
 | **Basset Mirror** | No price (trade-only). SKU and dimensions are in the sub-header line e.g. `7086-LR-140 \| 52x24x16`. |
 | **Alfonso Marina** | WooCommerce — listing pages are JS-rendered (Playwright). Product pages work via requests. SKU is extracted from the image filename. No price (trade-only). |
+| **Hickory White** | No price (trade-only). Variant SKU parsed from "As Shown" block. Fractions in dimensions (e.g. `93 1/2`) converted to decimals. Compound SKUs for multi-piece sets (e.g. `333LX33P_333LX14R`). **Fabric category skipped** — gallery served via `hickorywhite.microdinc.com` iframe which actively blocks headless Chromium. |
 
 ---
 
