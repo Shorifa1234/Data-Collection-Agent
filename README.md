@@ -1,10 +1,10 @@
 # AVS Agent — Vendor Scraping System
 
-**Version 1.6** · Built by Accord Tech Solutions
+**Version 1.8** · Built by Accord Tech Solutions
 
 A Claude Code-powered agentic system that scrapes product data from interior design vendor websites and saves results to structured Excel files. Columns are **fully dynamic** — every field found on the product page becomes a column, ordered by the tracker's studio_columns definition.
 
-**33 vendor scrapers** currently implemented across Playwright, Shopify API, Magento 2, WooCommerce, BigCommerce, NetSuite, EPiServer, and custom CMS platforms.
+**34 vendor scrapers** currently implemented across Playwright, Shopify API, Magento 2, WooCommerce, BigCommerce, NetSuite, EPiServer, and custom CMS platforms.
 
 ---
 
@@ -140,6 +140,60 @@ Claude will:
 
 ---
 
+## Merging partial Excel files — `merge_excel.py`
+
+When a run is split across two machines (local + VPS), or a run was interrupted and completed in two parts, merge the resulting Excel files:
+
+```bash
+# Output saved automatically as <file1>_merged.xlsx
+python merge_excel.py "Safavieh/Data/Safavieh.xlsx" "Safavieh/Data/Safavieh_vps.xlsx"
+
+# Custom output name
+python merge_excel.py "Shev Chair/Data/Shev Chair.xlsx" "Shev Chair/Data/Shev Chair_vps.xlsx" "Shev Chair/Data/Shev Chair_FINAL.xlsx"
+```
+
+**Rules:**
+- Sheets from **file1** come first — kept exactly as-is
+- Sheets from **file2** not already in file1 are appended
+- If the same sheet name exists in both, file1 wins
+- Column widths, row heights, freeze panes, and cell styling are all preserved
+
+---
+
+## Checkpoint / resume system
+
+Every scraper saves progress after each product to `<Vendor>/Data/<Vendor>_progress.json` and `<Vendor>/Data/<Vendor>_rows.jsonl`. If a run is interrupted:
+
+1. Check checkpoint files are still there: `ls <Vendor>/Data/`
+2. Re-run normally — scraper replays completed rows and continues from where it stopped:
+   ```bash
+   python orchestrator.py "Safavieh"
+   ```
+3. Checkpoint files are deleted automatically on a successful full run.
+
+If checkpoints were lost, use `SCRAPE_CATEGORIES` to run only the missing categories.
+
+---
+
+## Running on VPS without losing the session
+
+Always use `screen` or `nohup` on VPS so the process survives a disconnect:
+
+```bash
+# screen — recommended (reattach at any time)
+screen -S vendor_run
+python orchestrator.py "Safavieh"
+# Detach: Ctrl+A then D    Reattach: screen -r vendor_run
+
+# nohup — fire and forget
+nohup python orchestrator.py "Safavieh" > safavieh.log 2>&1 &
+tail -f safavieh.log
+```
+
+**Never run directly in an SSH session** — if the connection drops, the scraper is killed and you lose unsaved progress.
+
+---
+
 ## Running vendors in parallel (VPS)
 
 On a multi-core VPS (8+ cores / 16 GB RAM) you can run 2 vendors simultaneously using `run_parallel.py`:
@@ -202,6 +256,17 @@ python orchestrator.py "Wesley Hall" "Vanguard Designs" "Visual Comfort" --test 
 python orchestrator.py "The Future Perfect"
 python orchestrator.py "The Future Perfect" --headless false
 ```
+
+### Partial run — specific categories only
+
+Use when a full run was interrupted and only some categories need to be scraped:
+
+```bash
+SCRAPE_CATEGORIES="Ottomans,Cabinets,Sofas & Loveseats" python orchestrator.py "Safavieh"
+SCRAPE_CATEGORIES="Bar Stools,Lounge Chairs,Fabric,Outdoor Seating" python orchestrator.py "Shev Chair"
+```
+
+This produces a new Excel with only those categories. Merge it with the original using `merge_excel.py`.
 
 ### Full run — multiple vendors
 
@@ -292,7 +357,6 @@ everything into a single sheet for that category.
 | Gabby | `Gabby` | Shopify (`gabriellawhite.com`) |
 | Hector Finch | `Hector Finch` | Custom |
 | Hennepin Made | `Hennepin Made` | Custom |
-| Hickory White | `Hickory White` | Drupal 7 CMS *(Fabric category skipped — microdinc.com iframe blocks headless browsers)* |
 | Highland House | `Highland House` | Custom ASP.NET |
 | Kannoa | `Kannoa` | Shopify API |
 | Kravet | `Kravet` | Magento 2 + Algolia |
@@ -301,6 +365,8 @@ everything into a single sheet for that category.
 | Porta Romana | `Porta Romana` | Shopify API |
 | Regina Andrew | `Regina Andrew` | SuiteCommerce |
 | Remains | `Remains` | Shopify API |
+| Safavieh | `Safavieh` | Shopify (multi-brand retailer) |
+| Shev Chair | `Shev Chair` | WooCommerce |
 | SkLO | `SkLo` | Custom |
 | Sunpan | `Sunpan` | Shopify (requests + detail page HTML) |
 | The Future Perfect | `The Future Perfect` | Custom |
@@ -323,6 +389,7 @@ everything into a single sheet for that category.
 | `base_scraper.py` | Shared utilities: Playwright browser, dynamic ExcelWriter, parsers |
 | `orchestrator.py` | Main dispatcher: supports 1 or many vendors, tracks timing per vendor |
 | `run_parallel.py` | Runs 2+ vendor scrapers simultaneously on multi-core VPS |
+| `merge_excel.py` | Merges two vendor Excel files into one (append missing sheets) |
 | `.claude/commands/scrape-vendor.md` | `/scrape-vendor` slash command |
 | `.claude/commands/test-scrape.md` | `/test-scrape` slash command |
 | `vendor sheet/SD_Web Scraping - Status Tracker.xlsx` | Source of truth: vendor categories, links, column definitions |
@@ -368,7 +435,8 @@ These are set automatically by the orchestrator when `--test` is passed:
 | **Villa & House** | BigCommerce trade portal — no price shown without login. Dimensions extracted from body text pattern. |
 | **Basset Mirror** | No price (trade-only). SKU and dimensions are in the sub-header line e.g. `7086-LR-140 \| 52x24x16`. |
 | **Alfonso Marina** | WooCommerce — listing pages are JS-rendered (Playwright). Product pages work via requests. SKU is extracted from the image filename. No price (trade-only). |
-| **Hickory White** | No price (trade-only). Variant SKU parsed from "As Shown" block. Fractions in dimensions (e.g. `93 1/2`) converted to decimals. Compound SKUs for multi-piece sets (e.g. `333LX33P_333LX14R`). **Fabric category skipped** — gallery served via `hickorywhite.microdinc.com` iframe which actively blocks headless Chromium. |
+| **Safavieh** | Shopify multi-brand retailer. `Manufacturer` is always "Safavieh"; sub-brands (Theodore Alexander, Hooker Furniture, etc.) go in a separate `Brand` column from the spec table. Dimensions come from three places: page label, description bullets, and description text — all three are scraped. Full product data fetched via Shopify REST API (`/products/{handle}.json`). Supports `SCRAPE_CATEGORIES` for partial runs. |
+| **Shev Chair** | WooCommerce. Pricing is contract-only ($0 on site). Dimensions parsed from plain text below the "Dimensions Width Depth Height" header. Fabric category has detailed specs in the `#tab-description` panel. Supports `SCRAPE_CATEGORIES` for partial runs. |
 
 ---
 

@@ -299,6 +299,153 @@ If the site provides an explicit family name or collection, prefer that over the
 12. **Image URL** — always take the product image from the **product detail page**, not from listing/thumbnail images. Prefer `data-zoom-image` or `data-src` attributes over `src` for highest resolution.
 13. **Manufacturer** — always set `data["Manufacturer"] = vendor_name`. The `ExcelWriter.write_row()` auto-populates this, but set it explicitly in the scraper for clarity.
 
+## Shopify vendor scraping patterns
+
+Many vendors use Shopify. Apply these patterns for any Shopify-based site.
+
+### Dimensions — three sources, all required
+
+Shopify product pages can show dimensions in up to three separate places. **Always scrape all three** and merge with `setdefault` (first value wins):
+
+| Source | Example | Notes |
+|---|---|---|
+| Page label (outside accordions) | `Size : 40" X 40" X 18"` | Static text shown beside swatches — **most commonly missed**. Scrape with a DOM walker before opening any accordion. |
+| Description accordion bullets | `Size Width: 43.3`, `Size Height: 15.7` | Key:Value bullet lines inside the description `<details>` block |
+| Description accordion text | `Item Dimensions: (LxWxH) 39-1/2 x 39-1/2 x 29-1/2` | Inline sentence, may use mixed fractions like `39-1/2` |
+
+**Dimension string formats to handle:**
+
+```
+40" X 40" X 18"            → unlabeled W x D x H
+(LxWxH) 39-1/2 x 39-1/2 x 29-1/2  → explicit LxWxH order
+W: 58.5 D: 41.5 H: 41.5   → labeled with colon
+W 25" x D 12" x H 22.5"   → labeled with space
+```
+
+Mixed fractions like `39-1/2` must be converted to decimals (`39.5`).
+
+### Accordion opening
+
+Use `startsWith` (not exact match) when clicking summary elements — theme icons or extra spans inside `<summary>` will break exact text matching:
+
+```python
+# Correct — robust to extra content inside <summary>
+s.textContent.trim().startsWith(heading)
+
+# Wrong — breaks if summary contains an icon span
+s.textContent.trim() === heading
+```
+
+### Shopify JSON — variant data
+
+Use this priority order to find the embedded product JSON:
+
+1. `window.productJSON`
+2. `window.__product__`
+3. `window.theme?.product`
+4. `window.ShopifyAnalytics?.meta?.product`
+5. `<script type="application/json">` tags (parse each, find one with `.variants`)
+6. `{product: {...}}` wrapper blobs in JSON script tags
+
+The `options` array on the product object names each option slot (`option1`/`option2`/`option3`). Map them to proper column names (`Color`, `Size`, `Finish`, etc.).
+
+Shopify prices from `ShopifyAnalytics` are in **cents** (divide by 100). Prices from full product JSON `variants[].price` may be in dollars as a string — use `clean_price()`.
+
+### Variant Source URL
+
+Each variant row must have its own URL:
+```python
+row["Source URL"] = f"{base_url}?variant={variant_id}"
+```
+
+### Multi-brand Shopify retailers
+
+If the vendor sells products from multiple brands (e.g. Safavieh sells Theodore Alexander, Hooker Furniture, etc.):
+- `Manufacturer` = always the **store name** (e.g. `"Safavieh"`)
+- `Brand` = the sub-brand from the Specifications table (e.g. `"Theodore Alexander"`)
+- Never skip the `Brand` row from the spec table — store it in a `Brand` column
+
+```python
+# In spec table processing:
+if spec_table.get("Brand") and spec_table["Brand"].lower() != vendor_name.lower():
+    base["Brand"] = spec_table.pop("Brand")
+else:
+    spec_table.pop("Brand", None)
+```
+
+### Listing page deduplication
+
+Strip query parameters from listing hrefs before adding to `seen` set — the same product URL can appear with different `?sort_by=` params:
+
+```python
+base_h = h.split("?")[0]
+if base_h not in seen:
+    seen.add(base_h)
+    links.append(base_h)
+```
+
+## Partial runs and merging Excel files
+
+### Running only specific categories
+
+All scrapers support a `SCRAPE_CATEGORIES` env var. Use it when a full run was interrupted and you only need to complete the missing categories — without re-scraping categories that already have good data.
+
+```bash
+# Run only the categories that are missing or incomplete
+SCRAPE_CATEGORIES="Ottomans,Cabinets,Sofas & Loveseats" python orchestrator.py "Safavieh"
+SCRAPE_CATEGORIES="Bar Stools,Lounge Chairs,Fabric,Outdoor Seating" python orchestrator.py "Shev Chair"
+```
+
+This produces a **new Excel containing only those categories**. The completed categories stay in the original Excel. Merge the two files afterwards using `merge_excel.py`.
+
+### Checkpoint / resume system
+
+Every scraper saves a checkpoint after each product (`<Vendor>_progress.json` + `<Vendor>_rows.jsonl` in the `Data/` folder). If a run is interrupted:
+
+1. Check that the checkpoint files are still present:  `ls <Vendor>/Data/`
+2. Simply re-run — the scraper will replay already-scraped rows and continue from where it stopped:
+   ```bash
+   python orchestrator.py "Safavieh"
+   ```
+3. On a successful full run the checkpoint files are deleted automatically.
+
+If checkpoint files were accidentally deleted, use `SCRAPE_CATEGORIES` to run only the missing categories instead.
+
+### Merging two Excel files — `merge_excel.py`
+
+Use this when you have a partial Excel from a local run and a second Excel from a VPS run covering the remaining categories.
+
+```bash
+# Saves as <file1>_merged.xlsx automatically
+python merge_excel.py "Safavieh/Data/Safavieh.xlsx" "Safavieh/Data/Safavieh_vps.xlsx"
+
+# Custom output name
+python merge_excel.py "Shev Chair/Data/Shev Chair.xlsx" "Shev Chair/Data/Shev Chair_vps.xlsx" "Shev Chair/Data/Shev Chair_FINAL.xlsx"
+```
+
+Rules:
+- Sheets from **file1** come first and are kept exactly as-is
+- Sheets from **file2** that are NOT already in file1 are appended
+- If a sheet name exists in both files, file1 wins — file2's version is skipped
+- Column widths, row heights, freeze panes, and styling are all copied
+
+### Running on VPS without losing the session
+
+Always use `screen` or `nohup` on VPS so the process keeps running if you disconnect:
+
+```bash
+# screen (recommended — you can reattach any time)
+screen -S vendor_run
+python orchestrator.py "Safavieh"
+# Detach: Ctrl+A then D    Reattach: screen -r vendor_run
+
+# nohup (fire and forget)
+nohup python orchestrator.py "Safavieh" > safavieh_run.log 2>&1 &
+tail -f safavieh_run.log
+```
+
+After a VPS run finishes, download the Excel and merge with your local file if needed.
+
 ## Useful commands
 
 ```bash

@@ -1,0 +1,195 @@
+{
+  "vendor_name": "Niermann Weeks",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://niermannweeks.com/product-type/coffee/"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Side & End Tables",
+      "links": [
+        "https://niermannweeks.com/product-type/occasional/"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://niermannweeks.com/product-type/dining/"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://niermannweeks.com/product-type/consoles/"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://niermannweeks.com/product-type/beds/"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Com"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Chandeliers",
+      "links": [
+        "https://niermannweeks.com/product-type/chandeliers/"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "Product Family Id",
+        "SKU",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Sconces",
+      "links": [
+        "https://niermannweeks.com/product-type/sconces/"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Flush Mounted",
+      "links": [
+        "https://niermannweeks.com/product-type/ceiling-fixtures/"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://niermannweeks.com/product-type/mirrors/"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}
