@@ -1,0 +1,122 @@
+{
+  "vendor_name": "Shev Chair",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://shevchair.com/product-category/banquet-tables/",
+        "https://shevchair.com/product-category/restaurant-tables/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "COM"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://shevchair.com/product-category/aluminum-stack-chairs-10-high/",
+        "https://shevchair.com/product-category/aluminum-stack-chairs-5-high/",
+        "https://shevchair.com/product-category/fine-dining-restaurant-seating/",
+        "https://shevchair.com/product-category/formal-stack-chairs-5-high/",
+        "https://shevchair.com/product-category/steel-powder-coat-stack-chairs-10-high/",
+        "https://shevchair.com/product-category/aluminum-flex-back-stack-chairs/",
+        "https://shevchair.com/product-category/industrial-restaurant-seating/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://shevchair.com/product-category/indoor-bar-stools/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://shevchair.com/product-category/clublounge-chairs/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Textiles",
+      "name": "Fabric",
+      "links": [
+        "https://shevchair.com/product-category/fabric-gallery/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Outdoor",
+      "name": "Outdoor Seating",
+      "links": [
+        "https://shevchair.com/product-category/outdoor-seating/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}

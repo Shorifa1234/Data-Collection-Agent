@@ -1,0 +1,248 @@
+{
+  "vendor_name": "Massoud",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://www.massoudfurniture.com/furniture/beds-headboards/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "COM",
+        "COL"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://www.massoudfurniture.com/furniture/dining/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "COM",
+        "COL"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://www.massoudfurniture.com/furniture/sofas/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "COM",
+        "COL"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sectionals",
+      "links": [
+        "https://www.massoudfurniture.com/furniture/sectionals/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "COM",
+        "COL"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://www.massoudfurniture.com/furniture/chairs/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "COM",
+        "COL"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Ottomans",
+      "links": [
+        "https://www.massoudfurniture.com/furniture/benches-ottomans/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "COM",
+        "COL"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Pillows & Throws",
+      "links": [
+        "https://www.massoudfurniture.com/textiles/throw-pillows/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Arm Height",
+        "Seat Height",
+        "Seat Depth",
+        "COM",
+        "COL"
+      ]
+    },
+    {
+      "group": "Textiles",
+      "name": "Fabric",
+      "links": [
+        "https://www.massoudfurniture.com/textiles/fabrics/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Content",
+        "Grade",
+        "Repeat",
+        "Cleaning Code"
+      ]
+    },
+    {
+      "group": "Textiles",
+      "name": "Leather",
+      "links": [
+        "https://www.massoudfurniture.com/textiles/leathers/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Content",
+        "Grade",
+        "Repeat",
+        "Cleaning Code"
+      ]
+    },
+    {
+      "group": "Textiles",
+      "name": "Trim",
+      "links": [
+        "https://www.massoudfurniture.com/textiles/trims/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Content",
+        "Grade",
+        "Repeat",
+        "Cleaning Code"
+      ]
+    }
+  ]
+}

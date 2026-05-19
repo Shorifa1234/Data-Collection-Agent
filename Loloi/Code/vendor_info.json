@@ -1,0 +1,24 @@
+{
+  "vendor_name": "Loloi",
+  "categories": [
+    {
+      "group": "",
+      "name": "Rugs",
+      "links": [
+        "https://www.loloirugs.com/collections/rugs-all"
+      ],
+      "studio_columns": [
+        "Product URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Construction",
+        "Material",
+        "Pile Height",
+        "Backing",
+        "Country of Origin"
+      ]
+    }
+  ]
+}
