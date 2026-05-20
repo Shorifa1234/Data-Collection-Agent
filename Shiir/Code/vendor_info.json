@@ -1,0 +1,23 @@
+{
+  "vendor_name": "Shiir",
+  "categories": [
+    {
+      "group": "Textiles",
+      "name": "Rugs",
+      "links": [
+        "https://www.shiirrugs.com/all-rugs/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}
