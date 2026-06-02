@@ -324,8 +324,11 @@ class ExcelWriter:
 # Dimension parser
 # ---------------------------------------------------------------------------
 _DIM_MAP = {
-    "w": "Width", "d": "Depth", "h": "Height",
-    "l": "Length",
+    # Single-letter abbreviations
+    "w": "Width", "d": "Depth", "h": "Height", "l": "Length",
+    # Full words
+    "width": "Width", "depth": "Depth", "height": "Height", "length": "Length",
+    # Diameter variants
     "dia": "Diameter", "diam": "Diameter", "diameter": "Diameter",
 }
 
@@ -354,6 +357,11 @@ def parse_dimensions(raw: str) -> dict[str, str]:
             .replace("\u2032", "'")   # PRIME \u2032
             .replace("\u2019", '"'))  # RIGHT SINGLE QUOTATION MARK ' (used as inch on some sites)
 
+    # Strip section labels like "Low: " / "High: " / "Small: " that prefix a measurement.
+    # Only strips when label is Capitalised word(s) + colon + space + digit.
+    # "Material: Steel" is NOT stripped (no digit follows). "Low: 59.1" IS stripped.
+    text = re.sub(r'(?<!\d)\b[A-Z][a-z]+(?:\s+[A-Za-z]+)*:\s*(?=\d)', '', text)
+
     # Dimensions field: strip inch marks and "in" suffixes, keep numbers + separators
     dim_clean = re.sub(r'["\']+', '', text)                   # remove " and '
     dim_clean = re.sub(r'\bin\.?\b', '', dim_clean, flags=re.IGNORECASE)
@@ -361,24 +369,43 @@ def parse_dimensions(raw: str) -> dict[str, str]:
     result: dict[str, str] = {"Dimensions": dim_clean}
 
     seen: set[str] = set()   # avoid overwriting first match with a later duplicate axis
+    # For single-segment strings, a duplicate axis label (e.g. "Width" twice) means
+    # the source mislabeled it — assign to the next unmapped standard dimension.
+    is_multi = " | " in text
+    _std_fallback = ["Width", "Depth", "Height", "Length"]
 
     def _add(key_raw: str, raw_val: str) -> None:
         key = _DIM_MAP.get(key_raw.lower().rstrip("."))
-        if key and key not in seen:
+        if not key:
+            return
+        if key not in seen:
             seen.add(key)
             result[key] = _fraction_to_decimal(raw_val.strip())
+        elif not is_multi and key in _std_fallback:
+            # Duplicate axis in a single-segment string (e.g. "Width" appears twice).
+            # The LATER value is the true value for that axis; the EARLIER value gets
+            # promoted to the next unmapped standard dimension.
+            # e.g. "Height 19.7 x Width 12.2 x Width 6.7" →
+            #   Height=19.7, Depth=12.2 (first Width promoted), Width=6.7 (second Width kept)
+            for fallback in _std_fallback:
+                if fallback not in seen:
+                    seen.add(fallback)
+                    result[fallback] = result[key]        # move old value to fallback
+                    result[key] = _fraction_to_decimal(raw_val.strip())  # keep latest
+                    break
 
-    # Pattern A: label before number  e.g.  W 25"  /  Dia. 18"  /  H22.5
+    # Pattern A: label before number  e.g.  W 25" / Width 25" / Dia. 18" / H22.5
     _pat_a = re.compile(
-        r'\b(dia(?:meter|m)?\.?|[wdhl])\s*[.:]?\s*([\d]+(?:[./][\d]+)?(?:\.\d+)?)\s*(?:"|in\.?)?',
+        r'\b(diameter|height|width|depth|length|dia(?:m(?:eter)?)?\.?|[wdhl])'
+        r'\s*[.:]?\s*([\d]+(?:[./][\d]+)?(?:\.\d+)?)\s*(?:"|in\.?)?',
         re.IGNORECASE,
     )
     for m in _pat_a.finditer(text):
         _add(m.group(1), m.group(2))
 
-    # Pattern B: number before label  e.g.  16.00" W  /  36" dia  /  30H  /  18.5Dia
+    # Pattern B: number before label  e.g.  16.00" W / 36" dia / 30H / 18.5" Width
     _pat_b = re.compile(
-        r'\b([\d]+(?:\.\d+)?)\s*(?:"|in\.?)?\s*(dia(?:meter|m)?\.?|[wdhl])\b',
+        r'\b([\d]+(?:\.\d+)?)\s*(?:"|in\.?)?\s*(diameter|height|width|depth|length|dia(?:m(?:eter)?)?\.?|[wdhl])\b',
         re.IGNORECASE,
     )
     for m in _pat_b.finditer(text):

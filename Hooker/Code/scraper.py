@@ -1,34 +1,21 @@
 """
-scraper.py  —  Hooker
-----------------------
-Platform: hookerfurniture.com (listing) + hookerfurnishings.com (products + listings)
+scraper.py  —  Hooker Furniture
+---------------------------------
+Platform: hookerfurniture.com (listing URLs) + hookerfurnishings.com (actual pages)
 
 Site structure:
-  vendor_info.json contains hookerfurniture.com URLs, but the actual product
-  listings and detail pages are on hookerfurnishings.com.
+  Listing   : Magento 2 GraphQL API at hookerfurnishings.com/graphql
+              Uses category_uid filter (base64-encoded IDs in vendor_info.json)
+  Product   : hookerfurnishings.com/{slug}  (loaded via Playwright)
 
-  URL mapping (hookerfurniture.com → hookerfurnishings.com):
-    /bedroom/nightstands/room-type.aspx  →  /bedroom/nightstands
-    /dining-room/tables/room-type.aspx   →  /dining-room/tables
-    /office-furniture/desks/category-type.aspx → /office-furniture/desks
-    /itembrowser.aspx?room=living-room&type=ottomans → /living-room/ottomans
-
-  Listing   : hookerfurnishings.com/{path}?page=N
-              Product hrefs: a[href] with single slug containing digits
-  Product   : hookerfurnishings.com/{slug}
-
-Product page fields (SPA page with JSON-LD + data block):
-  Product Name    : h1 or JSON-LD name
-  SKU             : data block "SKU: {value}"
-  Price           : data block "MSRP Price: {value}"
-  Image URL       : first img[itemprop="image"] or og:image
-  Description     : p[itemprop="description"] or meta[name="description"]
-  Width/Height/Depth/Diameter/Length: data block
-  Finish          : data block "Finish Description: {value}"
-  Materials       : data block "Material Description: {value}"
-  Collection      : data block "Marketing Collection Name: {value}"
-  Features        : data block "Feature Bullets: {value}"
-  UPC             : data block "UPC: {value}"
+Page selectors discovered:
+  SKU       : p[class*='productSku']  → "SKU: 6820-90116-99"
+  Dimensions: div[class*='dimensionsAndDesign-sectionValue']
+              → first p contains <b>Label:</b>, second p[class*='unit'] = value
+  Specs     : p[class*='productSpecification-itemLabel'] → label
+              next sibling → value
+  Description: p[itemprop='description'] or meta[name='description']
+  Image     : img[itemprop='image'] or og:image
 """
 
 from __future__ import annotations
@@ -39,7 +26,7 @@ import os
 import re
 import sys
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, parse_qs
+from urllib.parse import urljoin
 
 import requests as _requests
 
@@ -56,157 +43,284 @@ from base_scraper import (
     extract_family_id,
     parse_dimensions,
 )
+from bs4 import BeautifulSoup
 
-VENDOR_NAME = os.environ.get("VENDOR_NAME", "Hooker")
+VENDOR_NAME = os.environ.get("VENDOR_NAME", "Hooker Furniture")
 HEADLESS    = os.environ.get("HEADLESS", "true").lower() != "false"
 OUTPUT_PATH = Path(
     os.environ.get(
         "OUTPUT_PATH",
-        str(PROJECT_ROOT / VENDOR_NAME / "Data" / f"{VENDOR_NAME}.xlsx"),
+        str(PROJECT_ROOT / "Hooker" / "Data" / "Hooker Furniture.xlsx"),
     )
 )
 TEST_MODE           = os.environ.get("TEST_MODE", "false").lower() == "true"
 TEST_MAX_CATEGORIES = int(os.environ.get("TEST_MAX_CATEGORIES", "999"))
 TEST_MAX_PRODUCTS   = int(os.environ.get("TEST_MAX_PRODUCTS", "5"))
 
-LISTING_BASE = "https://hookerfurnishings.com"
 PRODUCT_BASE = "https://hookerfurnishings.com"
+GQL_URL      = "https://hookerfurnishings.com/graphql"
 TIMEOUT_MS   = 60_000
 
+# Sub-brands under Hooker Furnishings — these go in Brand column, not Manufacturer
+_HOOKER_BRANDS = {"hooker furniture", "hooker furnishings"}
 
-def _to_furnishings_url(hooker_url: str) -> str:
-    """
-    Convert hookerfurniture.com listing URL to hookerfurnishings.com category URL.
-    e.g. https://www.hookerfurniture.com/bedroom/nightstands/room-type.aspx
-         → https://hookerfurnishings.com/bedroom/nightstands
-    """
-    parsed = urlparse(hooker_url)
-
-    # Handle itembrowser.aspx URLs (query-param based categories)
-    if "itembrowser.aspx" in hooker_url:
-        params = parse_qs(parsed.query)
-        room  = params.get("room", [""])[0]   # e.g. "living-room"
-        types = params.get("type", [])         # may appear multiple times
-        cat   = types[-1] if types else ""     # take the last unique type value
-        if room and cat:
-            return f"{LISTING_BASE}/{room}/{cat}"
-        return ""
-
-    # Standard path: remove /{room|category|department}-type.aspx and query params
-    path = re.sub(r"/(room|category|department)-type\.aspx.*$", "", parsed.path)
-    path = path.rstrip("/")
-    return f"{LISTING_BASE}{path}"
-
-
-def _parse_data_block(html: str) -> dict[str, str]:
-    """Parse the product data div: 'Key: Value<br>Key2: Value2<br>...' """
-    result: dict[str, str] = {}
-    cleaned = re.sub(r"<(?!br\s*/?>)[^>]+>", "", html, flags=re.IGNORECASE)
-    for segment in re.split(r"<br\s*/?>", cleaned, flags=re.IGNORECASE):
-        segment = re.sub(r"&[a-z]+;", " ", segment).strip()
-        if ": " in segment:
-            key, _, val = segment.partition(": ")
-            key = key.strip().lower()
-            val = val.strip()
-            if key and val and len(key) < 80:
-                result[key] = val
-    return result
-
-
-_HEADERS = {
+_GQL_HEADERS = {
+    "Content-Type": "application/json",
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/122.0.0.0 Safari/537.36"
     ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.5",
 }
-_SLUG_RE = re.compile(
-    r'href="https://hookerfurnishings\.com/([a-z0-9][a-z0-9-]*[0-9][a-z0-9-]*)"'
-)
+
+_GQL_QUERY = """
+query GetCategoryProducts($uid: String!, $page: Int!) {
+  products(
+    filter: { category_uid: { eq: $uid } }
+    pageSize: 48
+    currentPage: $page
+    sort: { name: ASC }
+  ) {
+    total_count
+    page_info { total_pages current_page }
+    items {
+      name
+      sku
+      url_key
+      url_suffix
+    }
+  }
+}
+"""
 
 
-def _fetch_listing_links(url: str) -> list[str]:
-    """Fetch a listing page via requests and extract product slugs from SSR HTML."""
-    try:
-        r = _requests.get(url, headers=_HEADERS, timeout=30)
-        slugs = list(dict.fromkeys(_SLUG_RE.findall(r.text)))
-        return [f"{LISTING_BASE}/{s}" for s in slugs]
-    except Exception as e:
-        print(f"  [WARN] requests fetch failed for {url}: {e}")
-        return []
+def _gql_fetch_category(uid: str) -> list[str]:
+    """Fetch all product URLs for a GraphQL category UID via Magento 2 API."""
+    urls: list[str] = []
+    page = 1
+    total_pages = 1
 
-
-async def get_product_links(page, listing_url: str) -> list[str]:
-    """Collect product URLs from hookerfurnishings.com category listing via SSR HTML."""
-    furnishings_url = _to_furnishings_url(listing_url)
-    if not furnishings_url:
-        print(f"  [WARN] Cannot convert URL: {listing_url}")
-        return []
-
-    print(f"  [Listing] {furnishings_url}")
-    all_links: list[str] = []
-    seen: set[str] = set()
-    page_num = 1
-
-    while True:
-        url = furnishings_url if page_num == 1 else f"{furnishings_url}?page={page_num}"
-        links = _fetch_listing_links(url)
-
-        new_links = [l for l in links if l not in seen]
-        for l in new_links:
-            seen.add(l)
-        all_links.extend(new_links)
-
-        if not new_links:
+    while page <= total_pages:
+        try:
+            r = _requests.post(
+                GQL_URL,
+                headers=_GQL_HEADERS,
+                json={"query": _GQL_QUERY, "variables": {"uid": uid, "page": page}},
+                timeout=30,
+            )
+            data = r.json()
+            prods = data.get("data", {}).get("products", {})
+            if page == 1:
+                total_pages = prods.get("page_info", {}).get("total_pages", 1)
+                print(f"    UID {uid}: {prods.get('total_count', 0)} products, {total_pages} pages")
+            for item in prods.get("items", []):
+                url_key    = item.get("url_key", "")
+                url_suffix = item.get("url_suffix", "")
+                if url_key:
+                    urls.append(f"{PRODUCT_BASE}/{url_key}{url_suffix}")
+        except Exception as e:
+            print(f"    [WARN] GQL fetch failed uid={uid} page={page}: {e}")
             break
+        page += 1
 
-        page_num += 1
+    return urls
 
-    print(f"  [Listing] {len(all_links)} products across {page_num} pages")
-    return all_links
+
+async def get_product_links(page, cat: dict) -> list[str]:
+    """Return all product URLs for a category using GraphQL UIDs."""
+    gql_uids = cat.get("gql_uids", [])
+    if not gql_uids:
+        print(f"  [WARN] No gql_uids for category — skipping")
+        return []
+
+    seen: set[str] = set()
+    all_urls: list[str] = []
+
+    for uid in gql_uids:
+        for url in _gql_fetch_category(uid):
+            if url not in seen:
+                seen.add(url)
+                all_urls.append(url)
+
+    print(f"  [Listing] {len(all_urls)} unique products (across {len(gql_uids)} UID(s))")
+    return all_urls
+
+
+# ── Column name mapping (spec label → Excel column) ───────────────────────────
+_LABEL_MAP = {
+    "alternate finish items": "Alternate Finish Items",
+    "alternate cover items": "Alternate Cover Items",
+    "alternate bed sizes": "Alternate Bed Sizes",
+    "arm height": "Arm Height",
+    "back panel description": "Back Panel Description",
+    "back panel material": "Back Panel Material",
+    "brand": "Brand",
+    "carton weight": "Carton Weight",
+    "clearance": "Clearance",
+    "collection": "Collection",
+    "collection features": "Collection Features",
+    "color family": "Color Family",
+    "consolidated warehouses": "Consolidated Warehouses",
+    "custom": "Custom",
+    "depth": "Depth",
+    "depth range": "Depth Range",
+    "diameter": "Diameter",
+    "distressing": "Distressing",
+    "div": "Div",
+    "distance from wall to recline": "Distance from Wall to Recline",
+    "drawer box construction method": "Drawer Box Construction Method",
+    "drawer construction": "Drawer Construction",
+    "drawers": "Drawers",
+    "feature filter": "Feature Filter",
+    "finish filter": "Finish Filter",
+    "finish construction": "Finish Construction",
+    "frame construction": "Frame Construction",
+    "full recline length": "Full Recline Length",
+    "height": "Height",
+    "height range": "Height Range",
+    "in stock": "In Stock",
+    "leather": "Leather",
+    "leather type": "Leather Type",
+    "levelers": "Levelers",
+    "marketing collection name": "Collection",
+    "material filter": "Material Filter",
+    "number of drawers": "Number of Drawers",
+    "padding": "Padding",
+    "product care": "Product Care",
+    "seat": "Seat",
+    "seat back": "Seat Back",
+    "seat depth": "Seat Depth",
+    "seat height": "Seat Height",
+    "seat width": "Seat Width",
+    "sub type": "Sub Type",
+    "suite": "Suite",
+    "tipover restraint included": "Tipover Restraint Included",
+    "top coat material": "Top Coat Material",
+    "top load capacity": "Top Load Capacity",
+    "upc": "UPC",
+    "visible in 3d": "Visible In 3D",
+    "volume": "Volume",
+    "weight": "Weight",
+    "weight capacity": "Weight Capacity",
+    "width": "Width",
+    "width range": "Width Range",
+    "wood distressing type": "Wood Distressing Type",
+    "wood joinery type": "Wood Joinery Type",
+    "1st row drawer dimensions": "1st Row Drawer Dimensions",
+    "1st row drawer weight capacity": "1st Row Drawer Weight Capacity",
+    "2nd and 3rd row drawer dimensions": "2nd and 3rd Row Drawer Dimensions",
+    "2nd and 3rd row drawer weight capacity": "2nd and 3rd Row Drawer Weight Capacity",
+}
+
+# Labels to skip (internal/nav/irrelevant)
+_SKIP_LABELS = {
+    "brand", "category", "sub category", "subcategory", "type",
+    "name", "status date", "item web rank", "item cover rank",
+    "line disc", "erp status", "image role data", "vendor", "vendor number",
+    "view type", "is fabric available", "is leather available", "intro date",
+    "parent sku (namedconfig)", "modular items", "modular parent",
+    "ac downloadable product", "ac gift card", "brand (code)",
+}
+
+# Dimension/measurement labels — strip trailing unit suffixes
+_DIM_LABELS = {"width", "depth", "height", "diameter", "length", "weight",
+               "arm height", "seat width", "seat height", "seat depth",
+               "full recline length", "distance from wall to recline", "clearance"}
+
+
+def _store_spec(label_raw: str, value: str, row: dict) -> None:
+    """Store label/value spec into row dict using canonical column name."""
+    label = label_raw.strip().rstrip(":").strip()
+    if not label or not value or len(label) > 80:
+        return
+    label_lower = label.lower()
+    if label_lower in _SKIP_LABELS:
+        return
+
+    col = _LABEL_MAP.get(label_lower, label.title())
+
+    # Strip units from dimension fields
+    if label_lower in _DIM_LABELS:
+        val_clean = re.sub(r"\s*(in\.?|ft\.?|cm\.?|lbs?\.?)$", "", value, flags=re.I).strip()
+        row.setdefault(col, val_clean)
+    elif col == "Brand":
+        # Only store Brand if it's a sub-brand (not Hooker itself)
+        if value.lower() not in _HOOKER_BRANDS:
+            row.setdefault("Brand", value)
+    elif col == "Collection" and row.get("Collection"):
+        pass  # don't overwrite
+    else:
+        row.setdefault(col, value)
 
 
 async def scrape_product(page, url: str) -> list[dict]:
     """Scrape a Hooker Furnishings product detail page."""
-    row: dict = {"Source": url}
+    row: dict = {"Source URL": url, "Manufacturer": VENDOR_NAME}
 
     try:
         await page.goto(url, timeout=TIMEOUT_MS, wait_until="domcontentloaded")
-        await page.wait_for_timeout(4000)
+        await page.wait_for_timeout(3500)
     except Exception as e:
         print(f"    [WARN] {e}")
         return [row]
 
-    # ── 1. Product Name ────────────────────────────────────────────────────────
-    for sel in ["h1[itemprop='name']", "h1.page-title-wrapper h1", "h1"]:
+    # ── 1. Product Name (h1) ──────────────────────────────────────────────────
+    for sel in ["h1[itemprop='name']", "h1[aria-live='polite']", "h1"]:
         el = await page.query_selector(sel)
         if el:
             text = clean_text(await el.inner_text())
-            if text and len(text) < 150:
+            if text and len(text) < 200:
                 row["Product Name"] = text
+                row["Product Family Id"] = extract_family_id(text)
                 break
 
-    # ── 2. Description ─────────────────────────────────────────────────────────
-    desc_el = await page.query_selector("p[itemprop='description']")
-    if desc_el:
-        text = clean_text(await desc_el.inner_text())
-        if text:
-            row["Description"] = text
+    # ── 2. SKU ────────────────────────────────────────────────────────────────
+    sku_el = await page.query_selector("[class*='productSku']")
+    if sku_el:
+        sku_text = clean_text(await sku_el.inner_text())
+        m = re.search(r"SKU:\s*([A-Za-z0-9\-]+)", sku_text)
+        if m:
+            row["SKU"] = m.group(1)
 
-    # ── 3. Image URL ───────────────────────────────────────────────────────────
-    img_el = await page.query_selector("img[itemprop='image']")
-    if img_el:
-        src = (
-            await img_el.get_attribute("src")
-            or await img_el.get_attribute("data-src")
-            or ""
-        )
-        if src and not src.startswith("data:"):
-            if not src.startswith("http"):
-                src = urljoin(PRODUCT_BASE, src)
-            row["Image URL"] = src
+    # ── 3. Description ────────────────────────────────────────────────────────
+    for sel in [
+        "p[itemprop='description']",
+        "[class*='description'] p",
+        "meta[name='description']",
+    ]:
+        el = await page.query_selector(sel)
+        if el:
+            if sel == "meta[name='description']":
+                text = clean_text(await el.get_attribute("content") or "")
+            else:
+                text = clean_text(await el.inner_text())
+            if text and len(text) > 20:
+                row["Description"] = text
+                break
+
+    # ── 4. Image URL ──────────────────────────────────────────────────────────
+    for sel in [
+        "img[itemprop='image']",
+        "[class*='productImage'] img",
+        "[class*='gallery'] img",
+        "picture img",
+    ]:
+        img_el = await page.query_selector(sel)
+        if img_el:
+            src = (
+                await img_el.get_attribute("data-zoom-image")
+                or await img_el.get_attribute("data-src")
+                or await img_el.get_attribute("src")
+                or ""
+            )
+            if src and not src.startswith("data:"):
+                if src.startswith("//"):
+                    src = "https:" + src
+                elif not src.startswith("http"):
+                    src = urljoin(PRODUCT_BASE, src)
+                row["Image URL"] = src
+                break
+
     if not row.get("Image URL"):
         og = await page.query_selector("meta[property='og:image']")
         if og:
@@ -214,189 +328,174 @@ async def scrape_product(page, url: str) -> list[dict]:
             if content:
                 row["Image URL"] = content
 
-    # ── 4. Parse data block (Key: Value<br> pairs) ─────────────────────────────
-    # Find the SMALLEST div containing "SKU: " to avoid matching the page wrapper
-    data_block_html = await page.evaluate("""
-        () => {
-            const divs = document.querySelectorAll('div, article, section');
-            let best = null, bestLen = Infinity;
-            for (const d of divs) {
-                const h = d.innerHTML || '';
-                if (h.includes('SKU: ') && h.includes('<br')) {
-                    if (h.length < bestLen) {
-                        bestLen = h.length;
-                        best = h;
-                    }
-                }
-            }
-            return best || '';
-        }
-    """)
+    # ── 5. Click Overall Dimensions tab and parse ────────────────────────────
+    try:
+        dim_btn = await page.query_selector("button:has-text('Overall Dimensions')")
+        if dim_btn:
+            await dim_btn.click()
+            await page.wait_for_timeout(800)
+    except Exception:
+        pass
 
-    if data_block_html:
-        data = _parse_data_block(data_block_html)
+    html = await page.content()
+    soup = BeautifulSoup(html, "lxml")
 
-        if data.get("sku") and not row.get("SKU"):
-            row["SKU"] = data["sku"]
+    # Dimension rows: div[class*='dimensionsAndDesign-sectionValue']
+    # Structure: <div><p><b>Label:</b></p><p class="*unit*">Value</p></div>
+    for div in soup.select("[class*='dimensionsAndDesign-sectionValue']"):
+        label_p = div.select_one("b")
+        value_p = div.select_one("[class*='unit']")
+        if label_p and value_p:
+            label = clean_text(label_p.get_text())
+            value = clean_text(value_p.get_text())
+            _store_spec(label, value, row)
 
-        msrp = data.get("msrp price", data.get("msrp", ""))
-        if msrp:
-            row["Price"] = clean_price(msrp)
+    # ── 6. Click Design Elements & Features tab ───────────────────────────────
+    try:
+        feat_btn = await page.query_selector("button:has-text('Design Elements & Features')")
+        if feat_btn:
+            await feat_btn.click()
+            await page.wait_for_timeout(800)
+            html2 = await page.content()
+            soup = BeautifulSoup(html2, "lxml")
+    except Exception:
+        pass
 
-        if data.get("weight"):
-            m = re.search(r"([\d.]+)", data["weight"])
-            if m:
-                row["Weight"] = m.group(1)
+    # ── 7. Parse all productSpecification-itemLabel rows ─────────────────────
+    for label_el in soup.select("[class*='productSpecification-itemLabel']"):
+        label = clean_text(label_el.get_text())
+        sib = label_el.find_next_sibling()
+        if sib:
+            value = clean_text(sib.get_text())
+            _store_spec(label, value, row)
 
-        # Individual dimension fields
-        for key, col in [("height", "Height"), ("width", "Width"), ("depth", "Depth"),
-                         ("diameter", "Diameter"), ("length", "Length")]:
-            if data.get(key) and not row.get(col):
-                m = re.search(r"([\d.]+)", data[key])
-                if m:
-                    row[col] = m.group(1)
+    # ── 8. Click Product Details, Finish/Frame Construction, Product Care ─────
+    for section_label in ["Product Details", "Finish Construction", "Frame Construction", "Product Care"]:
+        try:
+            sec_btn = await page.query_selector(f"button:has-text('{section_label}')")
+            if sec_btn:
+                await sec_btn.click()
+                await page.wait_for_timeout(500)
+        except Exception:
+            pass
 
-        # Build combined Dimensions string
-        dim_parts = []
-        for col, label in [("Width", "W"), ("Depth", "D"), ("Height", "H"),
-                            ("Diameter", "Dia"), ("Length", "L")]:
-            if row.get(col):
-                dim_parts.append(f"{label} {row[col]}")
-        if dim_parts:
-            row.setdefault("Dimensions", " x ".join(dim_parts))
+    html3 = await page.content()
+    soup3 = BeautifulSoup(html3, "lxml")
 
-        if data.get("finish description"):
-            row["Finish"] = data["finish description"]
-        if data.get("material description"):
-            row["Materials"] = data["material description"]
+    # Parse spec items again (new sections may now be expanded)
+    for label_el in soup3.select("[class*='productSpecification-itemLabel']"):
+        label = clean_text(label_el.get_text())
+        sib = label_el.find_next_sibling()
+        if sib:
+            value = clean_text(sib.get_text())
+            _store_spec(label, value, row)
 
-        collection = (
-            data.get("marketing collection name")
-            or data.get("collection filter")
-            or data.get("suite", "")
-        )
-        if collection:
-            row["Collection"] = collection
+    # Also parse section content paragraphs (Finish Construction, Frame Construction text)
+    for section_title in soup3.select("[class*='productSpecification-sectionTitle']"):
+        section_name = clean_text(section_title.get_text())
+        # Find next sibling paragraph with the description
+        sib = section_title.find_next_sibling()
+        if sib:
+            val = clean_text(sib.get_text())
+            if val and section_name:
+                col = _LABEL_MAP.get(section_name.lower(), section_name.title())
+                row.setdefault(col, val)
 
-        if data.get("style"):
-            row["Style"] = data["style"]
+    # ── 9. Seating options (Arm Height, Seat dims visible from View Summary) ──
+    # These also appear in productSpecification-itemLabel — already parsed above
 
-        features = data.get("feature bullets", data.get("features", ""))
-        if features:
-            row["Features"] = re.sub(r"\|", ", ", features)
+    # ── 10. Build Dimensions string ───────────────────────────────────────────
+    dim_parts = []
+    for col, label in [("Width", "W"), ("Depth", "D"), ("Height", "H"),
+                        ("Diameter", "Dia"), ("Length", "L")]:
+        if row.get(col):
+            dim_parts.append(f"{label} {row[col]}")
+    if dim_parts:
+        row.setdefault("Dimensions", " x ".join(dim_parts))
 
-        if data.get("upc"):
-            row["UPC"] = data["upc"]
-
-        if data.get("carton height") or data.get("carton width") or data.get("carton length"):
-            parts = []
-            for k in ("carton length", "carton width", "carton height"):
-                if data.get(k):
-                    parts.append(data[k])
-            if parts:
-                row["Carton Size"] = " x ".join(parts)
-
-        if data.get("carton weight"):
-            row["Carton Weight"] = data["carton weight"]
-
-        skip = {
-            "product name", "sku", "msrp price", "msrp", "weight",
-            "height", "width", "depth", "diameter", "length",
-            "finish description", "material description",
-            "marketing collection name", "collection filter", "style",
-            "feature bullets", "features", "upc",
-            "carton height", "carton width", "carton length", "carton weight",
-            "modular items", "modular parent", "ac downloadable product", "ac gift card",
-            "name", "description", "status date", "item web rank", "item cover rank",
-            "brand (code)", "line disc", "erp status", "image role data",
-            "vendor", "vendor number", "consolidated warehouses", "view type",
-            "is fabric available", "is leather available", "in stock",
-            "intro date", "parent sku (namedconfig)", "sub type",
-            "alternate finish items", "alternate cover items", "alternate bed sizes",
-        }
-        for k, v in data.items():
-            if k not in skip and v and v not in ("-", "No", ""):
-                col_name = k.title()
-                row.setdefault(col_name, v)
-
-    # ── 5. JSON-LD fallback ────────────────────────────────────────────────────
-    if not row.get("SKU") or not row.get("Image URL"):
-        ld_scripts = await page.evaluate("""
-            () => Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
-                       .map(s => s.textContent)
-        """)
-        for raw in ld_scripts:
-            try:
-                d = json.loads(raw)
-                candidates = (
-                    d.get("@graph", [d]) if isinstance(d, dict)
-                    else (d if isinstance(d, list) else [d])
-                )
-                for obj in candidates:
-                    if obj.get("@type") == "Product":
-                        if not row.get("SKU") and obj.get("sku"):
-                            row["SKU"] = str(obj["sku"])
-                        if not row.get("Image URL") and obj.get("image"):
-                            img = obj["image"]
-                            row["Image URL"] = img if isinstance(img, str) else img[0]
-                        break
-            except Exception:
-                pass
-
-    # ── 6. Product Family Id ───────────────────────────────────────────────────
-    if not row.get("Product Family Id") and row.get("Product Name"):
-        row["Product Family Id"] = extract_family_id(row["Product Name"])
+    # ── 11. JSON-LD fallback ──────────────────────────────────────────────────
+    for script in soup3.find_all("script", type="application/ld+json"):
+        try:
+            d = json.loads(script.string or "{}")
+            items = d.get("@graph", [d]) if isinstance(d, dict) else (d if isinstance(d, list) else [d])
+            for obj in items:
+                if obj.get("@type") == "Product":
+                    if not row.get("SKU") and obj.get("sku"):
+                        row["SKU"] = str(obj["sku"])
+                    if not row.get("Image URL") and obj.get("image"):
+                        img = obj["image"]
+                        row["Image URL"] = img if isinstance(img, str) else img[0]
+                    if not row.get("Product Name") and obj.get("name"):
+                        row["Product Name"] = clean_text(obj["name"])
+                        row["Product Family Id"] = extract_family_id(row["Product Name"])
+                    if not row.get("Price"):
+                        offers = obj.get("offers", {})
+                        if isinstance(offers, list):
+                            offers = offers[0]
+                        price = offers.get("price") or offers.get("lowPrice", "")
+                        if price:
+                            row["Price"] = clean_price(str(price))
+                    break
+        except Exception:
+            pass
 
     return [row]
 
 
 async def main() -> None:
-    info   = json.loads((Path(__file__).parent / "vendor_info.json").read_text())
-    writer = ExcelWriter(OUTPUT_PATH, info["vendor_name"])
+    info_path = Path(__file__).parent / "vendor_info.json"
+    info      = json.loads(info_path.read_text(encoding="utf-8"))
 
     categories = info["categories"]
     if TEST_MODE:
         categories = categories[:TEST_MAX_CATEGORIES]
-        print(f"[TEST: all {len(categories)} categories, max {TEST_MAX_PRODUCTS} products each]")
+        print(f"[TEST: {len(categories)} categories, max {TEST_MAX_PRODUCTS} products each]")
 
-    print(f"\n[Scraper] Vendor : {info['vendor_name']}")
-    print(f"[Scraper] Mode   : {'TEST' if TEST_MODE else 'FULL'}")
-    print(f"[Scraper] Output : {OUTPUT_PATH}")
+    print(f"\n[Scraper] Vendor  : {VENDOR_NAME}")
+    print(f"[Scraper] Mode    : {'TEST' if TEST_MODE else 'FULL'}")
+    print(f"[Scraper] Output  : {OUTPUT_PATH}")
+    print(f"[Scraper] Headless: {HEADLESS}")
+
+    writer = ExcelWriter(OUTPUT_PATH, VENDOR_NAME)
 
     async with PlaywrightBrowser(headless=HEADLESS) as page:
         for cat in categories:
-            if not cat["links"]:
+            if not cat.get("gql_uids") and not cat.get("links"):
+                print(f"[Skip] {cat['name']} — no gql_uids or links")
                 continue
 
-            writer.add_sheet(cat["name"], cat["links"][0], studio_columns=cat["studio_columns"])
+            print(f"\n[Category] {cat['name']}")
+            source_url = cat["links"][0] if cat.get("links") else ""
+            writer.add_sheet(
+                cat["name"], source_url,
+                studio_columns=cat.get("studio_columns", []),
+            )
 
-            seen_urls: set[str] = set()
-            all_urls:  list[str] = []
-
-            for listing_url in cat["links"]:
-                for u in await get_product_links(page, listing_url):
-                    if u not in seen_urls:
-                        seen_urls.add(u)
-                        all_urls.append(u)
+            all_urls = await get_product_links(page, cat)
 
             if TEST_MODE:
                 all_urls = all_urls[:TEST_MAX_PRODUCTS]
 
-            print(f"\n[Category] {cat['name']}: {len(all_urls)} products")
+            print(f"  {len(all_urls)} products to scrape")
 
-            for idx, url in enumerate(all_urls, 1):
+            global_idx = 1
+            for url in all_urls:
+                slug = url.rstrip("/").split("/")[-1][:60]
+                print(f"  [{global_idx}/{len(all_urls)}] {slug}")
                 try:
                     rows = await scrape_product(page, url)
                     for row in rows:
                         if not row.get("SKU"):
-                            row["SKU"] = generate_sku(info["vendor_name"], cat["name"], idx)
+                            row["SKU"] = generate_sku(VENDOR_NAME, cat["name"], global_idx)
+                            print(f"    [SKU generated] {row['SKU']}")
                         if not row.get("Product Family Id") and row.get("Product Name"):
                             row["Product Family Id"] = extract_family_id(row["Product Name"])
-                        row["Manufacturer"] = info["vendor_name"]
                         writer.write_row(row, category_name=cat["name"])
-                    print(f"  [{idx}] {url.rstrip('/').split('/')[-1]}")
+                        global_idx += 1
                 except Exception as e:
                     print(f"  [ERROR] {url}: {e}")
+                    global_idx += 1
+
                 await async_polite_delay(0.8, 2.0)
 
             await async_polite_delay(1.0, 2.5)

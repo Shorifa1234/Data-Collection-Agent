@@ -88,7 +88,8 @@ def ensure_folders(vendor_name: str):
 # Vendor info
 # ---------------------------------------------------------------------------
 def get_vendor_info(vendor_name: str) -> dict:
-    """Call vendor_parser.py and return parsed JSON."""
+    """Call vendor_parser.py and return parsed JSON.
+    Falls back to existing vendor_info.json if the parser subprocess fails."""
     result = subprocess.run(
         [sys.executable, str(ROOT_DIR / "vendor_parser.py"), vendor_name],
         capture_output=True,
@@ -96,6 +97,11 @@ def get_vendor_info(vendor_name: str) -> dict:
         encoding="utf-8",
     )
     if result.returncode != 0:
+        # Parser failed (e.g. OpenBLAS OOM) — try existing vendor_info.json
+        fallback = code_dir(vendor_name) / "vendor_info.json"
+        if fallback.exists():
+            print(f"[Orchestrator] vendor_parser failed; using cached vendor_info.json", file=sys.stderr)
+            return json.loads(fallback.read_text(encoding="utf-8"))
         print(f"[ERROR] {result.stderr.strip()}", file=sys.stderr)
         sys.exit(1)
     return json.loads(result.stdout)
