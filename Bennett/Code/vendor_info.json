@@ -1,0 +1,271 @@
+{
+  "vendor_name": "Bennett",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://www.bennetttothetrade.com/collections/coffee-tables"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://www.bennetttothetrade.com/collections/dining-tables"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://www.bennetttothetrade.com/collections/consoles"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://www.bennetttothetrade.com/collections/beds"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://www.bennetttothetrade.com/collections/desks"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Bookcases",
+      "links": [
+        "https://www.bennetttothetrade.com/collections/bookcases-vitrines"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dressers & Chests",
+      "links": [
+        "https://www.bennetttothetrade.com/collections/chests"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://www.bennetttothetrade.com/collections/sideboards"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Accent Tables",
+      "links": [
+        "https://www.bennetttothetrade.com/collections/occasional-tables"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://www.bennetttothetrade.com/collections/chairs"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "COM"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Benches",
+      "links": [
+        "https://www.bennetttothetrade.com/collections/benches"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height",
+        "COM"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://www.bennetttothetrade.com/collections/mirrors"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Product Family Id",
+        "Description",
+        "Price",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Length",
+        "Height"
+      ]
+    }
+  ]
+}

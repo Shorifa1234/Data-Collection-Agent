@@ -1,0 +1,42 @@
+{
+  "vendor_name": "de Le Cuona",
+  "categories": [
+    {
+      "group": "Accessories",
+      "name": "Pillows & Throws",
+      "links": [
+        "https://delecuona.com/collections/cushions",
+        "https://delecuona.com/collections/throws-blankets"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Textiles",
+      "name": "Fabric",
+      "links": [
+        "https://delecuona.com/collections/fabrics"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}

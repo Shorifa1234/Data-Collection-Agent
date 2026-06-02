@@ -1,0 +1,77 @@
+{
+  "vendor_name": "O Henry House",
+  "categories": [
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://ohenryhouseltd.com/dining"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://ohenryhouseltd.com/sofas"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://ohenryhouseltd.com/chairs"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Ottomans",
+      "links": [
+        "https://ohenryhouseltd.com/ottomans"
+      ],
+      "studio_columns": [
+        "Source URL",
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Height"
+      ]
+    }
+  ]
+}

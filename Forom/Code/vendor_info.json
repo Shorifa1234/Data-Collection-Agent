@@ -1,0 +1,572 @@
+{
+  "vendor_name": "Forom",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Nightstands",
+      "links": [
+        "https://www.foromshop.com/collections/nightstands"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://www.foromshop.com/collections/coffee-tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Side & End Tables",
+      "links": [
+        "https://www.foromshop.com/collections/side-tables-1"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://www.foromshop.com/collections/dining-tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Com"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://www.foromshop.com/collections/consoles-cabinets"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://www.foromshop.com/collections/bed-frames"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://www.foromshop.com/collections/desks"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Bookcases",
+      "links": [
+        "https://www.foromshop.com/collections/bookcases-shelves"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://www.foromshop.com/collections/sideboard-credenza"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Accent Tables",
+      "links": [
+        "https://www.foromshop.com/collections/pedestals"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dressers & Chests",
+      "links": [
+        "https://www.foromshop.com/collections/dressers"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://www.foromshop.com/collections/dining-chairs"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://www.foromshop.com/collections/bar-stools"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://www.foromshop.com/collections/sofas-daybeds"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://www.foromshop.com/collections/lounge-chairs"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Ottomans",
+      "links": [
+        "https://www.foromshop.com/collections/stools-poufs"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Benches",
+      "links": [
+        "https://www.foromshop.com/collections/benches-stools"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Desk Chairs",
+      "links": [
+        "https://www.foromshop.com/collections/office-chairs"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Chandeliers",
+      "links": [
+        "https://www.foromshop.com/collections/pendants-chandeliers"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Sconces",
+      "links": [
+        "https://www.foromshop.com/collections/wall-sconces"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Table Lamps",
+      "links": [
+        "https://www.foromshop.com/collections/table-lamps",
+        "https://www.foromshop.com/collections/outdoor?pf_pt_product_type=Table%20Lamp&pf_pt_product_type=Floor%20Lamp"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Floor Lamps",
+      "links": [
+        "https://www.foromshop.com/collections/floor-lamps"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Pillows & Throws",
+      "links": [
+        "https://www.foromshop.com/collections/pillows-throws"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Vases",
+      "links": [
+        "https://www.foromshop.com/collections/bowls-vases"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Dimensions",
+        "Size",
+        "Price",
+        "Material",
+        "Designer",
+        "Collection",
+        "Specification",
+        "Base",
+        "Product Fact Sheet",
+        "2D/3D Files",
+        "Care Instructions",
+        "Shipping & Returns"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Objects",
+      "links": [
+        "https://www.foromshop.com/collections/objects"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Color",
+        "Dimensions",
+        "Size",
+        "Price",
+        "Material",
+        "Designer",
+        "Collection",
+        "Specification",
+        "Product Fact Sheet",
+        "2D/3D Files",
+        "Care Instructions",
+        "Shipping & Returns"
+      ]
+    },
+    {
+      "group": "Textiles",
+      "name": "Rugs",
+      "links": [
+        "https://www.foromshop.com/collections/rugs"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Outdoor",
+      "name": "Outdoor Seating",
+      "links": [
+        "https://www.foromshop.com/collections/outdoor?pf_pt_product_type=Bar+Stool&pf_pt_product_type=Bench&pf_pt_product_type=Dining+Chair&pf_pt_product_type=Lounge+Chair&pf_pt_product_type=Ottoman&pf_pt_product_type=Sectional+Sofa&pf_pt_product_type=Sofa&pf_pt_product_type=Stool"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Outdoor",
+      "name": "Outdoor Tables",
+      "links": [
+        "https://www.foromshop.com/collections/outdoor?pf_pt_product_type=Coffee%20Table&pf_pt_product_type=Dining%20Table&pf_pt_product_type=Side%20Table"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Outdoor",
+      "name": "Outdoor Accessories",
+      "links": [
+        "https://www.foromshop.com/collections/outdoor?pf_pt_product_type=Vase&pf_pt_product_type=Planter&pf_pt_product_type=Floor%20Lamp"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Color",
+        "Dimensions",
+        "Size",
+        "Price",
+        "Seat Height",
+        "Arm Height",
+        "Material",
+        "Designer",
+        "Collection",
+        "Specification",
+        "Product Fact Sheet",
+        "2D/3D Files",
+        "Assembly Instructions",
+        "Care Instructions",
+        "Shipping & Returns"
+      ]
+    }
+  ]
+}

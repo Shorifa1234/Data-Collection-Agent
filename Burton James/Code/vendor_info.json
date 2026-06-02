@@ -1,0 +1,114 @@
+{
+  "vendor_name": "Burton James",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://www.burtonjames.com/furniture/beds/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://www.burtonjames.com/furniture/sofas-loveseats/",
+        "https://www.burtonjames.com/furniture/chaises-daybeds/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sectionals",
+      "links": [
+        "https://www.burtonjames.com/furniture/sectionals/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://www.burtonjames.com/furniture/chairs/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Ottomans",
+      "links": [
+        "https://www.burtonjames.com/furniture/ottomans/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Benches",
+      "links": [
+        "https://www.burtonjames.com/furniture/banquette/blake/"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "vendor_name": "Kuzco Lighting",
+  "categories": [
+    {
+      "name": "Track Lighting",
+      "links": ["https://kuzcolighting.com/collections/track"],
+      "studio_columns": [
+        "Finish", "Color Temperature", "Primary Dimension", "Fixture Dimensions",
+        "Location Rating", "Wattage", "Dimming Range", "Dimming", "CRI",
+        "Lumens", "LED Total Lumens", "Fixture Delivered Lumens", "LED Life Span",
+        "Voltage", "Bulb Type", "Socket", "Bulb Qty", "Bulbs Included",
+        "Wiring Type", "Wire Length", "Illumination Direction",
+        "Sloped Ceiling Adaptable", "Mounting", "Adjustable",
+        "Material", "ETL Compliant", "UL Certified", "Origin",
+        "Spec Sheet", "Install Guide"
+      ]
+    },
+    {
+      "name": "Chandeliers",
+      "links": ["https://kuzcolighting.com/collections/chandeliers"],
+      "studio_columns": [
+        "Finish", "Color Temperature", "Primary Dimension", "Fixture Dimensions",
+        "Canopy Dimensions", "Canopy", "Location Rating", "Wattage",
+        "Dimming Range", "Dimming", "CRI",
+        "Lumens", "LED Total Lumens", "Fixture Delivered Lumens", "LED Life Span",
+        "Voltage", "Bulb Type", "Socket", "Bulb Qty", "Bulbs Included",
+        "Wiring Type", "Wire Length", "Min Drop", "Hanging Length",
+        "Illumination Direction", "Sloped Ceiling Adaptable",
+        "Hanging Method", "Adjustable", "Material",
+        "ETL Compliant", "UL Certified", "Origin",
+        "Spec Sheet", "Install Guide"
+      ]
+    },
+    {
+      "name": "Pendants",
+      "links": [
+        "https://kuzcolighting.com/collections/pendants",
+        "https://kuzcolighting.com/collections/linear-pendants",
+        "https://kuzcolighting.com/collections/multi-pendants",
+        "https://kuzcolighting.com/collections/exterior-pendants"
+      ],
+      "studio_columns": [
+        "Finish", "Color Temperature", "Primary Dimension", "Fixture Dimensions",
+        "Canopy Dimensions", "Canopy", "Location Rating", "Wattage",
+        "Dimming Range", "Dimming", "CRI",
+        "Lumens", "LED Total Lumens", "Fixture Delivered Lumens", "LED Life Span",
+        "Voltage", "Bulb Type", "Socket", "Bulb Qty", "Bulbs Included",
+        "Wiring Type", "Wire Length", "Min Drop", "Hanging Length",
+        "Illumination Direction", "Sloped Ceiling Adaptable",
+        "Hanging Method", "Adjustable", "Material",
+        "ETL Compliant", "UL Certified", "Origin",
+        "Spec Sheet", "Install Guide"
+      ]
+    },
+    {
+      "name": "Sconces",
+      "links": [
+        "https://kuzcolighting.com/collections/wall-sconces",
+        "https://kuzcolighting.com/collections/exterior-wall",
+        "https://kuzcolighting.com/collections/exterior-cylinders"
+      ],
+      "studio_columns": [
+        "Finish", "Color Temperature", "Primary Dimension", "Fixture Dimensions",
+        "Backplate Dimensions", "Location Rating", "Wattage",
+        "Dimming Range", "Dimming", "CRI",
+        "Lumens", "LED Total Lumens", "Fixture Delivered Lumens", "LED Life Span",
+        "Voltage", "Bulb Type", "Socket", "Bulb Qty", "Bulbs Included",
+        "Wiring Type", "Wire Length", "Illumination Direction",
+        "Mounting", "Adjustable", "Material",
+        "ETL Compliant", "UL Certified", "Origin",
+        "Spec Sheet", "Install Guide"
+      ]
+    },
+    {
+      "name": "Flush Mounted",
+      "links": [
+        "https://kuzcolighting.com/collections/flush-mount",
+        "https://kuzcolighting.com/collections/semi-flush-mount",
+        "https://kuzcolighting.com/collections/ceiling-mounts",
+        "https://kuzcolighting.com/collections/exterior-ceiling"
+      ],
+      "studio_columns": [
+        "Finish", "Color Temperature", "Primary Dimension", "Fixture Dimensions",
+        "Canopy Dimensions", "Canopy", "Location Rating", "Wattage",
+        "Dimming Range", "Dimming", "CRI",
+        "Lumens", "LED Total Lumens", "Fixture Delivered Lumens", "LED Life Span",
+        "Voltage", "Bulb Type", "Socket", "Bulb Qty", "Bulbs Included",
+        "Illumination Direction", "Sloped Ceiling Adaptable",
+        "Mounting", "Adjustable", "Material",
+        "ETL Compliant", "UL Certified", "Origin",
+        "Spec Sheet", "Install Guide"
+      ]
+    },
+    {
+      "name": "Table Lamps",
+      "links": [
+        "https://kuzcolighting.com/collections/table-lamps",
+        "https://kuzcolighting.com/collections/exterior-table-lamps"
+      ],
+      "studio_columns": [
+        "Finish", "Color Temperature", "Primary Dimension", "Fixture Dimensions",
+        "Shade Dimensions", "Location Rating", "Wattage",
+        "Dimming Range", "Dimming", "CRI",
+        "Lumens", "LED Total Lumens", "Fixture Delivered Lumens", "LED Life Span",
+        "Voltage", "Bulb Type", "Socket", "Bulb Qty", "Bulbs Included",
+        "Shade Details", "Shade Included", "Wiring Type",
+        "Illumination Direction", "Adjustable", "Material",
+        "ETL Compliant", "UL Certified", "Origin",
+        "Spec Sheet", "Install Guide"
+      ]
+    },
+    {
+      "name": "Floor Lamps",
+      "links": ["https://kuzcolighting.com/collections/floor-lamps"],
+      "studio_columns": [
+        "Finish", "Color Temperature", "Primary Dimension", "Fixture Dimensions",
+        "Location Rating", "Wattage",
+        "Dimming Range", "Dimming", "CRI",
+        "Lumens", "LED Total Lumens", "Fixture Delivered Lumens", "LED Life Span",
+        "Voltage", "Bulb Type", "Socket", "Bulb Qty", "Bulbs Included",
+        "Shade Details", "Shade Included", "Wiring Type",
+        "Illumination Direction", "Adjustable", "Material",
+        "ETL Compliant", "UL Certified", "Origin",
+        "Spec Sheet", "Install Guide"
+      ]
+    },
+    {
+      "name": "Mirrors",
+      "links": ["https://kuzcolighting.com/collections/mirrors"],
+      "studio_columns": [
+        "Finish", "Color Temperature", "Primary Dimension", "Fixture Dimensions",
+        "Location Rating", "Wattage", "Dimming Range", "Dimming", "CRI",
+        "Lumens", "LED Total Lumens", "Fixture Delivered Lumens", "LED Life Span",
+        "Voltage", "Illumination Direction", "Mounting", "Material", "Glass Details",
+        "ADA Compliant", "ETL Compliant", "UL Certified", "Origin",
+        "Spec Sheet", "Install Guide"
+      ]
+    }
+  ]
+}

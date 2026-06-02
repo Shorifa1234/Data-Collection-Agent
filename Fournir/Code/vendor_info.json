@@ -1,0 +1,367 @@
+{
+  "vendor_name": "Fournir",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=2&categories=_2_15_32&sort=numerical"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=2&categories=_2_13&sort=numerical"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=2&categories=_2_15_35&sort=numerical"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Bookcases",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=2&categories=_2_15_34&sort=numerical"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=2&categories=_2_15_31&sort=numerical"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dressers & Chests",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=2&categories=_2_15_30&sort=numerical"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=2&categories=_2_14_22&sort=numerical"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=2&categories=_2_14_28&sort=numerical"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=2&categories=_2_14_27&sort=numerical"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=2&categories=_2_14_26&sort=numerical",
+        "https://www.dessinfournir.com/#/search?master=2&categories=_2_14_23&sort=numerical"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Ottomans",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=2&categories=_2_14_24&sort=numerical"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Benches",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=2&categories=_2_14_25&sort=numerical"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Chandeliers",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=1_2&categories=_1_8"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Sconces",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=1_2&categories=_1_10"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Table Lamps",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=1_2&categories=_1_11"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Floor Lamps",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=1_2&categories=_1_9"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=7&categories=_7_39"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Objects",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=7&categories=_7_41_40",
+        "https://www.dessinfournir.com/#/search?master=7&categories=_7_38_36"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Baskets & Planters",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=7&categories=_7_42"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Wall Decor",
+      "links": [
+        "https://www.dessinfournir.com/#/search?master=7&categories=_7_37"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}

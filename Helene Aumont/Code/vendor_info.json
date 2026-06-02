@@ -1,0 +1,290 @@
+{
+  "vendor_name": "Helene Aumont",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Nightstands",
+      "links": [
+        "https://heleneaumont.com/shop-by-style#night-stands"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Length",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://heleneaumont.com/shop-by-style#coffee-tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Length",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Side & End Tables",
+      "links": [
+        "https://heleneaumont.com/shop-by-style#side-tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Length",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://heleneaumont.com/shop-by-style#dining-tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Com",
+        "Length"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://heleneaumont.com/shop-by-style#consoles"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Length",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://heleneaumont.com/shop-by-style#desks"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Length",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://heleneaumont.com/shop-by-style#credenzas",
+        "https://heleneaumont.com/shop-by-style#cabinets"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Length",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://heleneaumont.com/shop-by-style#chaises",
+        "https://heleneaumont.com/shop-by-style#sofas-settees"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Seat Height",
+        "Seat Depth"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://heleneaumont.com/shop-by-style#chairs",
+        "https://heleneaumont.com/shop-by-style#arm-chairs"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Seat Height",
+        "Seat Depth"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Benches",
+      "links": [
+        "https://heleneaumont.com/shop-by-style#benches"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Length",
+        "Finish",
+        "Seat Height",
+        "Seat Depth"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Chandeliers",
+      "links": [
+        "https://heleneaumont.com/shop-by-style#chandeliers"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Pendants",
+      "links": [
+        "https://heleneaumont.com/shop-by-style#pendants"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Lighting",
+      "name": "Sconces",
+      "links": [
+        "https://heleneaumont.com/shop-by-style#sconces"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Length",
+        "Finish"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Mirrors",
+      "links": [
+        "https://heleneaumont.com/shop-by-style#mirrors"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish"
+      ]
+    }
+  ]
+}

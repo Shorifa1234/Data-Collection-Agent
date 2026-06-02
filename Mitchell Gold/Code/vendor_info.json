@@ -1,0 +1,336 @@
+{
+  "vendor_name": "Mitchell Gold",
+  "categories": [
+    {
+      "group": "Furniture",
+      "name": "Nightstands",
+      "links": [
+        "https://mgbw.com/search?cgid=Bedroom_Bedroom-Furniture_Nightstands"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Coffee & Cocktail Tables",
+      "links": [
+        "https://mgbw.com/search?cgid=Living_Living_Room_Accents_Coffee_Cocktail_Tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dining Tables",
+      "links": [
+        "https://mgbw.com/search?cgid=Dining_All&prefn1=Category&prefv1=Dining%20Tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height",
+        "Finish",
+        "Com"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Consoles",
+      "links": [
+        "https://mgbw.com/search?cgid=Living_Living_Room_Accents_Consoles"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Beds & Headboards",
+      "links": [
+        "https://mgbw.com/search?cgid=Bedroom_Bedroom-Furniture_Fabric-Beds"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Desks",
+      "links": [
+        "https://mgbw.com/search?cgid=Office_Office_Desks"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Bookcases",
+      "links": [
+        "https://mgbw.com/search?cgid=Tables-Storage_Bookcases"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Cabinets",
+      "links": [
+        "https://mgbw.com/search?cgid=Living_Living_Room_Accents_Media_Entertainment",
+        "https://mgbw.com/search?cgid=Office_Storage"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Accent Tables",
+      "links": [
+        "https://mgbw.com/search?cgid=Living_Living_Room_Accents_Accent_End_Tables"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Furniture",
+      "name": "Dressers & Chests",
+      "links": [
+        "https://mgbw.com/search?cgid=Tables_Storage_Bedroom_Storage_Dressers_Chests"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Dining Chairs",
+      "links": [
+        "https://mgbw.com/search?cgid=Dining_All&prefn1=Category&prefv1=Dining%20Chairs"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Bar Stools",
+      "links": [
+        "https://mgbw.com/search?cgid=Dining_All&prefn1=Category&prefv1=Bar%20Stools",
+        "https://mgbw.com/search?cgid=Dining_All&prefn1=Category&prefv1=Counter%20Stools"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sofas & Loveseats",
+      "links": [
+        "https://mgbw.com/search?cgid=All_Seating_Sofas",
+        "https://mgbw.com/search?cgid=All_Seating_Lounges_Loveseats",
+        "https://mgbw.com/search?cgid=All_Seating_Sleeper_Sofas"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Sectionals",
+      "links": [
+        "https://mgbw.com/search?cgid=All_Seating_Sectionals"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Lounge Chairs",
+      "links": [
+        "https://mgbw.com/search?cgid=All_Seating_Swivels_Recliners",
+        "https://mgbw.com/search?cgid=All_Seating_Accent_Chairs"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Ottomans & Benches",
+      "links": [
+        "https://mgbw.com/search?cgid=All_Seating_Ottomans_Benches"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Seating",
+      "name": "Desk Chairs",
+      "links": [
+        "https://mgbw.com/search?cgid=Office_Office_Chairs"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    },
+    {
+      "group": "Accessories",
+      "name": "Pillows & Throws",
+      "links": [
+        "https://mgbw.com/search?cgid=Living_Pillows"
+      ],
+      "studio_columns": [
+        "Image URL",
+        "Product Name",
+        "SKU",
+        "Description",
+        "Weight",
+        "Width",
+        "Depth",
+        "Diameter",
+        "Height"
+      ]
+    }
+  ]
+}
