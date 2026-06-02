@@ -1,0 +1,139 @@
+
+============================================================
+[Orchestrator] Vendor: Mitchell Gold
+[Orchestrator] Found 18 categories with links
+[Orchestrator] Folder: D:\Automation\AVS agent-20260507T065823Z-3-001\AVS agent\Mitchell Gold
+[Orchestrator] No scraper found — Claude must generate one
+[Orchestrator] Vendor info saved: D:\Automation\AVS agent-20260507T065823Z-3-001\AVS agent\Mitchell Gold\Code\vendor_info.json
+
+======================================================================
+SCRAPER GENERATION REQUIRED
+======================================================================
+Vendor      : Mitchell Gold
+Code path   : D:\Automation\AVS agent-20260507T065823Z-3-001\AVS agent\Mitchell Gold\Code\scraper.py
+Output path : D:\Automation\AVS agent-20260507T065823Z-3-001\AVS agent\Mitchell Gold\Data\Mitchell Gold.xlsx
+Categories  : 18 with links
+
+CATEGORIES TO SCRAPE:
+  [Furniture] Nightstands
+        https://mgbw.com/search?cgid=Bedroom_Bedroom-Furniture_Nightstands
+  [Furniture] Coffee & Cocktail Tables
+        https://mgbw.com/search?cgid=Living_Living_Room_Accents_Coffee_Cocktail_Tables
+  [Furniture] Dining Tables
+        https://mgbw.com/search?cgid=Dining_All&prefn1=Category&prefv1=Dining%20Tables
+  [Furniture] Consoles
+        https://mgbw.com/search?cgid=Living_Living_Room_Accents_Consoles
+  [Furniture] Beds & Headboards
+        https://mgbw.com/search?cgid=Bedroom_Bedroom-Furniture_Fabric-Beds
+  [Furniture] Desks
+        https://mgbw.com/search?cgid=Office_Office_Desks
+  [Furniture] Bookcases
+        https://mgbw.com/search?cgid=Tables-Storage_Bookcases
+  [Furniture] Cabinets
+        https://mgbw.com/search?cgid=Living_Living_Room_Accents_Media_Entertainment
+        https://mgbw.com/search?cgid=Office_Storage
+  [Furniture] Accent Tables
+        https://mgbw.com/search?cgid=Living_Living_Room_Accents_Accent_End_Tables
+  [Furniture] Dressers & Chests
+        https://mgbw.com/search?cgid=Tables_Storage_Bedroom_Storage_Dressers_Chests
+  [Seating] Dining Chairs
+        https://mgbw.com/search?cgid=Dining_All&prefn1=Category&prefv1=Dining%20Chairs
+  [Seating] Bar Stools
+        https://mgbw.com/search?cgid=Dining_All&prefn1=Category&prefv1=Bar%20Stools
+        https://mgbw.com/search?cgid=Dining_All&prefn1=Category&prefv1=Counter%20Stools
+  [Seating] Sofas & Loveseats
+        https://mgbw.com/search?cgid=All_Seating_Sofas
+        https://mgbw.com/search?cgid=All_Seating_Lounges_Loveseats
+        https://mgbw.com/search?cgid=All_Seating_Sleeper_Sofas
+  [Seating] Sectionals
+        https://mgbw.com/search?cgid=All_Seating_Sectionals
+  [Seating] Lounge Chairs
+        https://mgbw.com/search?cgid=All_Seating_Swivels_Recliners
+        https://mgbw.com/search?cgid=All_Seating_Accent_Chairs
+  [Seating] Ottomans & Benches
+        https://mgbw.com/search?cgid=All_Seating_Ottomans_Benches
+  [Seating] Desk Chairs
+        https://mgbw.com/search?cgid=Office_Office_Chairs
+  [Accessories] Pillows & Throws
+        https://mgbw.com/search?cgid=Living_Pillows
+
+COLUMN STRATEGY — DYNAMIC (no fixed column list):
+  - Columns are determined at runtime from what the scraper finds.
+  - Each category has tracker-defined 'studio_columns' (see vendor_info.json).
+  - studio_columns define preferred order; extra scraped fields are appended.
+  - ExcelWriter.save() finalises columns automatically — do NOT hardcode them.
+
+PER-CATEGORY STUDIO COLUMNS (from tracker):
+  [Furniture] Nightstands: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Furniture] Coffee & Cocktail Tables: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Furniture] Dining Tables: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height', 'Finish', 'Com']
+  [Furniture] Consoles: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Furniture] Beds & Headboards: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Furniture] Desks: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Furniture] Bookcases: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Furniture] Cabinets: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Furniture] Accent Tables: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Furniture] Dressers & Chests: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Seating] Dining Chairs: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Seating] Bar Stools: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Seating] Sofas & Loveseats: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Seating] Sectionals: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Seating] Lounge Chairs: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Seating] Ottomans & Benches: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Seating] Desk Chairs: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+  [Accessories] Pillows & Throws: ['Image URL', 'Product Name', 'SKU', 'Description', 'Weight', 'Width', 'Depth', 'Diameter', 'Height']
+
+COLLECT ALL POSSIBLE FIELDS from each product page, including:
+  Core   : Source, Image URL, Manufacturer, Product Name, Product Family Id,
+           Price, SKU, Description, Weight, Specifications,
+           Materials, Dimensions, Length, Width, Depth, Diameter, Height
+  Seating: Seat Height, Seat Depth, Seat Length, Arm Height
+  Struct : Base, Canopy, Shade Details
+  Finish : COM, COL, Fabric, Finish, Upholstery, Color, Components, Back, Wood
+  Lighting: Illumination, Suspension, Socket, Wattage, Size
+  Attrib : Designer, Maker, Collection, Lead Time, Origin,
+           Production, Date, Tariff Disclaimer, Tearsheet Link
+  + ANY other field found on the product page (add it — do not discard)
+
+TEST MODE SUPPORT (REQUIRED in every scraper):
+  The scraper MUST read these env vars and apply limits when TEST_MODE=true:
+    TEST_MODE           'true' | 'false'
+    TEST_MAX_CATEGORIES  number of categories to scrape (default 2)
+    TEST_MAX_PRODUCTS    max products per category (default 5)
+  Test output goes to: OUTPUT_PATH (already set by orchestrator)
+
+BASE UTILITIES AVAILABLE:
+  sys.path.insert(0, r'D:\Automation\AVS agent-20260507T065823Z-3-001\AVS agent')
+  from base_scraper import (
+      PlaywrightBrowser, ExcelWriter, build_column_order,
+      parse_dimensions, parse_spec_block, clean_text,
+      safe_float, async_polite_delay
+  )
+
+ExcelWriter usage:
+  writer = ExcelWriter(OUTPUT_PATH, vendor_name)
+  writer.add_sheet(cat['name'], cat['links'][0],
+                   studio_columns=cat['studio_columns'])
+  writer.write_row(data_dict, category_name=cat['name'])
+  writer.save()   # columns finalised here — fully dynamic
+
+INSTRUCTIONS FOR CLAUDE:
+  1. Visit one category listing URL — identify product card selectors + pagination
+  2. Visit 2-3 product detail pages — identify ALL data fields available
+  3. Write scraper.py: collect every field, store in a plain dict per product
+  4. Pass studio_columns=cat['studio_columns'] to writer.add_sheet()
+  5. Read HEADLESS, OUTPUT_PATH, TEST_MODE, TEST_MAX_CATEGORIES,
+     TEST_MAX_PRODUCTS from env vars
+  6. When TEST_MODE=true: limit categories and products as specified
+  7. Skip categories with empty links list
+======================================================================
+
+
+============================================================
+ORCHESTRATOR SUMMARY
+============================================================
+  Mitchell Gold                   status=needs_code
+
+  Total session time: 3.4s
+============================================================
+

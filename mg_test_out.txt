@@ -1,0 +1,56 @@
+[Orchestrator] Scraper exited with code 1073807364
+old] Coffee & Cocktail Tables: 5 products
+[Mitchell Gold] Dining Tables: 5 products
+[Mitchell Gold] Consoles: 5 products
+[Mitchell Gold] Beds & Headboards: 5 products
+[Mitchell Gold] Desks: 5 products
+[Mitchell Gold] Bookcases: 5 products
+[Mitchell Gold] Cabinets: 5 products
+[Mitchell Gold] Accent Tables: 5 products
+[Mitchell Gold] Dressers & Chests: 5 products
+[Mitchell Gold] Dining Chairs: 5 products
+[Mitchell Gold] Bar Stools: 5 products
+[Mitchell Gold] Sofas & Loveseats: 5 products
+[Mitchell Gold] Sectionals: 5 products
+[Mitchell Gold] Lounge Chairs: 5 products
+[Mitchell Gold] Ottomans & Benches: 5 products
+[Mitchell Gold] Desk Chairs: 5 products
+[Mitchell Gold] Pillows & Throws: 5 products
+  [Excel] Sheet 'Nightstands': 5 rows x 19 cols
+  [Excel] Sheet 'Coffee & Cocktail Tables': 5 rows x 19 cols
+  [Excel] Sheet 'Dining Tables': 5 rows x 20 cols
+  [Excel] Sheet 'Consoles': 5 rows x 18 cols
+  [Excel] Sheet 'Beds & Headboards': 5 rows x 20 cols
+  [Excel] Sheet 'Desks': 5 rows x 20 cols
+  [Excel] Sheet 'Bookcases': 5 rows x 18 cols
+  [Excel] Sheet 'Cabinets': 5 rows x 19 cols
+  [Excel] Sheet 'Accent Tables': 5 rows x 19 cols
+  [Excel] Sheet 'Dressers & Chests': 5 rows x 19 cols
+  [Excel] Sheet 'Dining Chairs': 5 rows x 23 cols
+  [Excel] Sheet 'Bar Stools': 5 rows x 23 cols
+  [Excel] Sheet 'Sofas & Loveseats': 5 rows x 24 cols
+  [Excel] Sheet 'Sectionals': 5 rows x 20 cols
+  [Excel] Sheet 'Lounge Chairs': 5 rows x 24 cols
+  [Excel] Sheet 'Ottomans & Benches': 5 rows x 25 cols
+  [Excel] Sheet 'Desk Chairs': 5 rows x 24 cols
+  [Excel] Sheet 'Pillows & Throws': 5 rows x 18 cols
+[Excel] Saved -> D:\Automation\AVS agent-20260507T065823Z-3-001\AVS agent\Mitchell Gold\Data\Mitchell Gold_TEST.xlsx
+Traceback (most recent call last):
+  File "D:\Automation\AVS agent-20260507T065823Z-3-001\AVS agent\Mitchell Gold\Code\scraper.py", line 351, in <module>
+    all_product_urls.append(u)
+    
+  File "C:\Users\Shorifa Akter\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\Shorifa Akter\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Shorifa Akter\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "D:\Automation\AVS agent-20260507T065823Z-3-001\AVS agent\Mitchell Gold\Code\scraper.py", line 347, in main
+    for listing_url in cat["links"]:
+  File "C:\Users\Shorifa Akter\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 21: character maps to <undefined>
